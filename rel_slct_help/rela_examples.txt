@@ -1,0 +1,1009 @@
+CUI1	STR1	RELA	STR2	CUI2
+C0236642	Pick Disease of the Brain	NULL	Degenerative Diseases, Central Nervous System	C0270715
+C1710317	TPMT*2 Allele	abnormality_associated_with_allele	Guanosine to Cytosine Transversion Abnormality	C1708262
+C1515630	gp100:17-25 Peptide	abnormal_cell_affected_by_chemical_or_drug	Melanoma Cell	C1513095
+C3876951	Nerve guide, bioabsorbable, synthetic	absorbability_of	Bioabsorbable	C5395723
+C0186594	Arthroscopy of shoulder with removal of foreign body	access_device_used_by	Arthroscopes	C0179144
+C0396463	Diagnostic endoscopic examination of bronchus and biopsy of lesion of lung using rigid bronchoscope	access_instrument_of	Rigid bronchoscope	C0179435
+C0188926	Reduction of closed talus fracture with manipulation and percutaneous pinning	access_of	Percutaneous	C0522523
+C0556182	Breast milk intake	acted_on_by_process	Milk, Human	C0026140
+C0388013	respiratory syncytial virus immune globulin intravenous	active_ingredient_of	Immune Sera	C0020960
+C0770426	codeine polistirex	active_metabolites_of	morphine	C0026549
+C1617163	bacitracin zinc 0.4 UNT/MG / hydrocortisone acetate 0.01 MG/MG / Neomycin Sulfate 0.0035 MG/MG / Polymyxin B Sulfate 10 UNT/MG Ophthalmic Ointment	active_moiety_of	bacitracin	C0004599
+C1707186	CYP2C19*7 Allele	activity_of_allele	Inactive - Biochemical Activity Level	C1705605
+C0184517	Activity alteration	actual_outcome_of	Improved	C0184511
+C3502050	Selective catheter placement, common carotid or innominate artery, unilateral, any approach, with angiography of the ipsilateral extracranial carotid circulation and all associated radiological supervision and interpretation, includes angiography of the cervicocerebral arch, when performed	add_on_code_for	Ultrasound guidance for vascular access requiring ultrasound evaluation of potential access sites, documentation of selected vessel patency, concurrent realtime ultrasound visualization of vascular needle entry, with permanent recording and reporting (List separately in addition to code for primary procedure)	C1314093
+C0228124	Spinal dura mater	adheres_to	Spinal arachnoid mater	C2327522
+C0014876	Esophagus	adjacent_to	Trachea	C0040578
+C0812387	Feels cold	adjectival_form_of	Cold Temperature	C0009264
+C1315723	pH^^adjusted to patient's actual temperature:LsCnc:Pt:BldA:Qn	adjustment_of	Adjusted to patients actual temperature	C1439358
+C1183697	Right apical axillary lymphatic chain	afferent_to	Right subclavian lymphatic trunk	C0501360
+C0456361	Pre-existing disease in renal transplant	after	Kidney Transplantation	C0022671
+C1426329	AAK1 gene	alias_of	AAK1 gene	C1426329
+C1521114	22q13.1	allele_absent_from_wild-type_chromosomal_location	CYP2D6*5 Allele	C1707227
+C1519478	Splice-Site Mutation	allele_has_abnormality	CYP3A5*10 Allele	C1706121
+C1705605	Inactive - Biochemical Activity Level	allele_has_activity	CYP2C19*3 Allele	C1707182
+C1521648	7q22.1	allele_in_chromosomal_location	CYP3A5*9 Allele	C1707238
+C1154744	Xenobiotic Metabolism	allele_plays_altered_role_in_process	CYP3A5*8 Allele	C1707237
+C0003289	Antidepressive Agents	allele_plays_role_in_metabolism_of_chemical_or_drug	CYP2D6*1 Allele	C1707216
+C1412388	AMPD2 gene	allelic_variant_of	AMPD2, TYR349TER	C4011391
+C0476386	[D]Placental imaging abnormal	alternative_of	Placentography abnormal	C0436519
+C0489338	R wave duration.lead V5:Time:Pt:Heart:Qn:EKG	analyzed_by	Heart	C0018787
+C0487953	serum/plasma	analyzes	Amitriptyline:SCnc:Pt:Ser/Plas:Qn	C0797773
+C0814992	Neural Groove	anatomical_entity_observed_in	Carnegie stage 9	C4242663
+C1179187	Lamina Propria	anatomic_structure_has_location	Bladder Muscularis Mucosa	C1511195
+C0230839	Mitochondrial Membrane, Outer	anatomic_structure_is_physical_part_of	Voltage-Dependent Anion Channels	C1506024
+C1326082	Granulocyte differentiation	anatomy_originated_from_biological_process	granulocyte	C0018183
+C0804630	Birthplace:Identifier:Point in time:^Patient:Nominal	answer_to	Northwest Territories, Yukon Territory	C3846594
+C1271569	Nelaton catheter sterile	answer_to_is_sterile	True	C0205238
+C0934302	Left parietal bone	anterior_to	Structure of coronal suture of skull	C0224527
+C2330499	Myocardium of mid lateral zone right ventricle	anteroinferior_to	Myocardium of apical lateral zone of right ventricle	C2336648
+C2327034	Septal myocardium of left ventricle	anterolateral_to	Myocardium of left ventricle	C0225899
+C1181114	Left basal segmental artery	anteromedial_to	T7 part of heart	C2323501
+C0507855	Wall of inferior vena cava	anterosuperior_to	Wall of biatrial part of heart	C2335086
+C0202921	Translumbar angiography of aorta	approach_of	Translumbar approach	C0522515
+C0371960	Total or near total esophagectomy, without thoracotomy; with pharyngogastrostomy or cervical esophagogastrostomy, with or without pyloroplasty (transhiatal)	approach_of_excluded	Transthoracic approach	C0205503
+C0489921	Closed treatment of ankle dislocation; requiring anesthesia, with or without percutaneous skeletal fixation	approach_of_possibly_included	Percutaneous	C0522523
+C5220928	TelavancinSusc&#x7C;Isolate	archetype_of	Telavancin:Susc:Pt:Isolate:OrdQn	C4695278
+C0030274	Pancreas	arterial_supply_of	Great pancreatic artery	C0734090
+C0503046	Right eighth rib	articulates_with	Bone structure of T8	C0459953
+C1268633	At risk for perioperative positioning injury	associated_condition_of	Paresis	C0030552
+C0024305	Lymphoma, Non-Hodgkin	associated_disease	Ataxia Telangiectasia	C0004135
+C0342203	Congenital iodine deficiency syndrome of neurological type	associated_etiologic_finding_of	Iodine deficiency	C4759669
+C1313937	Family history of diabetes mellitus	associated_finding_of	Diabetes Mellitus	C0011849
+C0374220	Prescription of optical and physical characteristics of and fitting of contact lens, with medical supervision of adaptation; corneal lens, both eyes, except for aphakia	associated_finding_of_excluded	Aphakia	C0003534
+C0371768	Exploration for postoperative hemorrhage, thrombosis or infection; chest	associated_finding_of_possibly_included	Postoperative Hemorrhage	C0032788
+C0436824	O/E - heart sounds diminished	associated_function_of	Heart Sounds	C0018820
+C0005859	Bloom Syndrome	associated_genetic_condition	cervical cancer	C4048328
+C2227724	abdominal x-ray, AP view: hepatic calcification	associated_morphology_of	Pathologic calcification, calcified structure	C2242558
+C2238074	blood osmotic fragility slight hemolysis (% NaCl)	associated_observation_of	Erythrocyte osmotic fragility	C1563090
+C0564995	Lung adhesions freed	associated_procedure_of	Lung adhesions freed	C0564995
+C0002921	Local anesthesia	associated_procedure_of_excluded	Removal of sutures under anesthesia (other than local), same surgeon	C0370549
+C0017118	Gastrectomy	associated_procedure_of_possibly_included	Anesthesia for intraperitoneal procedures in upper abdomen including laparoscopy; gastric restrictive procedure for morbid obesity	C0973232
+C0071315	Pneumovax	associated_with	Immunization	C0020971
+C1701032	ITGAM protein, human	associated_with_malfunction_of_gene_product	Leukocyte adhesion deficiency type 1	C0398738
+C0225936	Structure of cusp of pulmonic valve	attaches_to	Structure of anulus fibrosus of pulmonary artery	C0225935
+C1720057	Tablet for Oral Suspension	basic_dose_form_of	Tablet Dosage Form	C0039225
+C0687971	baclofen 10 MG Oral Tablet	basis_of_strength_substance_of	baclofen	C0004609
+C0022671	Kidney Transplantation	before	Pre-existing disease in renal transplant	C0456361
+C0007603	Plasma membrane	biological_process_has_associated_location	G Protein-Coupled Receptor Signaling	C1517377
+C0026249	Mitogens	biological_process_has_initiator_chemical_or_drug	Negative Regulation of G0 to G1 Transition	C1517338
+C1326082	Granulocyte differentiation	biological_process_has_initiator_process	Granulocyte differentiation	C1326082
+C0005773	Blood Cells	biological_process_has_result_anatomy	Hematopoiesis Inhibition	C1512383
+C0012899	DNA Repair	biological_process_has_result_biological_process	DNA Intrastrand Crosslinking	C1511675
+C0035668	RNA	biological_process_has_result_chemical_or_drug	Transcription Initiation	C1158830
+C0016004	Fibrin Tissue Adhesive	biological_process_involves_chemical_or_drug	Wound Healing	C0043240
+C3274808	TFG/NTRK1 Fusion Protein	biological_process_involves_gene_product	Signal Transduction	C0037083
+C0683140	Drug Metabolism	biological_process_is_part_of_process	Drug Transport Process	C1154689
+C1512644	Leukocyte Apoptotic Process	biological_process_results_from_biological_process	Thymic T-Cell Selection	C1515433
+C1704875	S100A8 wt Allele	biomarker_type_includes_gene	Disease Marker	C1511983
+C1568288	MMP16 protein, human	biomarker_type_includes_gene_product	Metastasis and Aggressiveness Marker	C1513179
+C0927907	Occlusal surface layer of right second upper molar tooth	bounded_by	Occlusal surface layer of right second upper molar tooth	C0927907
+C0927801	Mesial surface layer of right first upper premolar tooth	bounds	Mesial surface layer of right first upper premolar tooth	C0927801
+C0003484	Abdominal aorta structure	branch_of	Superior mesenteric artery structure	C0162861
+C0011991	Diarrhea	british_form_of	Diarrhea	C0011991
+C2133963	exposure to sulfites dust	causative_agent_of	Sulfites	C0038750
+C0342132	Hyperthyroidism due to ectopic thyroid tissue	cause_of	Ectopic thyroid tissue (disorder)	C0266283
+C1513634	Mouse Melanocytic Neoplasms of Uncertain Malignant Potential	cell_type_is_associated_with_eo_disease	Skin - Melanocyte (MMHCC)	C1522074
+C3641654	eflapegrastim	cell_type_or_tissue_affected_by_chemical_or_drug	Hematopoietic stem cells	C0018956
+C0797323	Glucose^5.5H post 75 g glucose PO:MCnc:Pt:Ser/Plas:Qn	challenge_of	post 75 g glucose PO	C1979577
+C0428897	Jugular venous pressure	characterized_by	heart process	C2256369
+C2256369	heart process	characterizes	Ambulatory post-hyperemic venous pressure	C0474743
+C1513095	Melanoma Cell	chemical_or_drug_affects_abnormal_cell	gp100 cDNA/Gold Complex	C1515641
+C0039195	Cytotoxic T-Lymphocytes	chemical_or_drug_affects_cell_type_or_tissue	pBCAR3/pIRS2-Phosphopeptide-tetanus Peptide Vaccine	C3828631
+C5441744	EPOR protein, human	chemical_or_drug_affects_gene_product	epoetin alfa	C0357126
+C1511665	DNA Crosslinking	chemical_or_drug_has_mechanism_of_action	ProLindac	C2745883
+C1326205	Positive Regulation of Apoptosis	chemical_or_drug_has_physiologic_effect	zoledronic acid	C0257685
+C1512818	Intercellular Communication Induction	chemical_or_drug_initiates_biological_process	Signaling Molecule	C1519315
+C0535996	CYP3A5 protein, human	chemical_or_drug_is_metabolized_by_enzyme	nisoldipine	C0028116
+C0035380	Reverse Transcription	chemical_or_drug_is_product_of_biological_process	DNA	C0012854
+C1707216	CYP2D6*1 Allele	chemical_or_drug_metabolism_is_associated_with_allele	Antipsychotic Agents	C0040615
+C0043240	Wound Healing	chemical_or_drug_plays_role_in_biological_process	Fibrin Tissue Adhesive	C0016004
+C0010583	cyclophosphamide	chemotherapy_regimen_has_component	Cyclophosphamide/Interleukin-1-Alpha	C0281229
+C1707179	CYP2C19*12 Allele	chromosomal_location_of_allele	10q24.1-q24.3	C1520290
+C1707227	CYP2D6*5 Allele	chromosomal_location_of_wild-type_gene	22q13.1	C1521114
+C1515717	t(12;21)(p13.2;q22.1)	chromosome_involved_in_cytogenetic_abnormality	Chromosomes, Human, Pair 12	C0008654
+C1333987	Hereditary Glomangioma	chromosome_mapped_to_disease	Chromosomes, Human, Pair 1	C0008651
+C0038436	Post-Traumatic Stress Disorder	classified_as	Prolonged post-traumatic stress disorder	C0154593
+C0085594	Fever with chills	classifies	Fever	C0015967
+C1552562	act - Verification	classifies_class_code	act observation verification	C3244108
+C1698332	CertifiedEntityType	class_code_classified_by	qualified entity	C1554213
+C0489371	S wave amplitude.lead V3:Elpot:Pt:Heart:Qn:EKG	class_of	Electrocardiogram measures	C1315022
+C0038454	Cerebrovascular accident	clinically_associated_with	Neurogenic Urinary Bladder	C0005697
+C1321756	Achalasia	clinically_similar	Esophageal Achalasia	C0014848
+C2584975	Acute injury of anterior cruciate ligament	clinical_course_of	Sudden onset AND/OR short duration	C1828128
+C0202386	Fluoride measurement	clinician_form_of	Fluoride measurement	C0202386
+C0038454	Cerebrovascular accident	co-occurs_with	Hemiparesis	C0018989
+C1274069	Nelaton antimicrobial-coated pediatric length urethral catheter	coating_material_of	Anti-Infective Agents	C0003204
+C2706718	R wave duration.lead AVR:Time:Pt:Heart:Qn:EKG	common_name_of	R wave duration.lead AVR:Time:Pt:Heart:Qn:EKG	C2706718
+C0024883	Modified radical mastectomy	completely_excised_anatomy_has_procedure	Nipples	C0028109
+C1710089	single lung transplantation	completely_excised_anatomy_may_have_procedure	Right lung	C0225706
+C0530993	antigen CYFRA21.1	complex_has_physical_part	KRT19 protein, human	C4082253
+C0436158	Hormone radioassay - pancreas	component_of	Hormones	C0019932
+C0373964	Blood typing, serologic; RBC antigens, other than ABO or Rh (D), each	component_of_excluded	Antigen in Rh blood group system	C0302050
+C1144666	Measurement of post-voiding residual urine and/or bladder capacity by ultrasound, non-imaging	component_of_possibly_included	Residual urine volume	C0429774
+C4273940	Polymer coated metal duodenal stent	compositional_material_of	Metals	C0025552
+C0975389	cefprozil 50 MG/ML Oral Suspension	concentration_strength_denominator_unit_of	milliliter	C0439242
+C0787030	cisapride 1 MG/ML Oral Suspension	concentration_strength_denominator_value_of	One	C0205447
+C0975243	carbamazepine 20 MG/ML Oral Suspension	concentration_strength_numerator_unit_of	milligram	C0439210
+C1319714	Cimetidine 40 MG/ML Oral Solution	concentration_strength_numerator_value_of	Forty	C3816449
+C1533685	Injection procedure	conceptual_part_of	injection volume	C0941280
+C1880653	FDA Established Names and Unique Ingredient Identifier Codes Terminology	concept_in_subset	ethaverine hydrochloride	C0770146
+C4243595	Temporal part of frontal bone	connected_to	Structure of sphenofrontal suture of skull	C0224533
+C1183437	Myotendinous junction plate	connection_type_of	Myotendinous Junction	C0584646
+C1150240	serine-type carboxypeptidase activity	consider	vacuolar carboxypeptidase Y	C1325415
+C1325405	thioredoxin activity	consider_from	disulfide oxidoreductase activity	C1151047
+C0982951	acetaminophen 32 MG/ML	consists_of	acetaminophen 32 MG/ML / phenyltoloxamine citrate 1 MG/ML Oral Solution	C2356361
+C0694264	diphtheria toxoid vaccine, inactivated 13.2 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Injectable Suspension	constitutes	tetanus toxoid vaccine, inactivated 10 UNT/ML	C2344325
+C0223537	Fourth lumbar vertebra	constitutional_part_of	Vasculature of fourth lumbar vertebra	C2334835
+C0202386	Fluoride measurement	consumer_friendly_form_of	Fluoride measurement	C0202386
+C0689572	{14 (methylprednisolone 16 MG Oral Tablet) } Pack	contained_in	methylprednisolone 16 MG Oral Tablet	C1123025
+C1123025	methylprednisolone 16 MG Oral Tablet	contains	{14 (methylprednisolone 16 MG Oral Tablet) } Pack	C0689572
+C1553741	AcknowledgementCondition - CodeSystem	context_binding_of	AcknowledgementCondition - CodeSystem	C1553741
+C0932823	Trunk of right thoracodorsal nerve	continuation_branch_of	Posterior cord of right brachial nerve plexus	C0835830
+C1180688	Apical ramus of right posterior segmental bronchus	continuous_distally_with	Structure of right upper lobe posterior segmental bronchus	C1261060
+C1744588	Posterior fasciculus of brachial plexus	continuous_proximally_with	Trunk of radial nerve	C0935404
+C0225902	Posterior papillary muscle of left ventricle	continuous_with	Inferior wall of left ventricle	C0504056
+C0206135	Platinum Compounds, Inorganic	contraindicated_class_of	edetic acid	C0013618
+C2757025	Adrenergic Agonists [MoA]	contraindicated_mechanism_of_action_of	furazolidone	C0016855
+C1371959	Decreased Striated Muscle Contraction	contraindicated_physiologic_effect_of	polymyxin B sulfate	C0001714
+C0019360	Herpes zoster disease	contraindicated_with_disease	corticotropin	C0001655
+C4242672	Carnegie stage 18	corresponds_to	Embryonic day 44	C4323904
+C1831363	Bacteria identified^^^8:Prid:Pt:Wound.shlw:Nom:Aerobic culture	count_of	Eight	C0205454
+C5395963	Human papillomavirus 6, 11, 16 and 18 antigens only vaccine product	count_of_active_ingredient_of	Four	C0205450
+C0973924	alendronic acid 70 MG Oral Tablet	count_of_base_of_active_ingredient_of	One	C0205447
+C1290070	Chronic contact mucositis	course_of	chronic	C0205191
+C4553096	Duodenal Infection, CTCAE	ctcae_5_parent_of	Infections and Infestations, CTCAE	C4552814
+C0008658	Chromosomes, Human, Pair 16	cytogenetic_abnormality_involves_chromosome	Loss of Chromosome 16	C1517961
+C3540597	CDISC SDTM Microbial Identification Certainty Terminology	data_element_of	Microbial Identification Certainty	C3540598
+C0038454	Cerebrovascular accident	ddx	Craniocerebral Trauma	C0018674
+C0153428	Malignant neoplasm of ileum	default_inpatient_classification_of	Gastrointestinal cancers - small intestine	C5225772
+C0154135	Neoplasm of unspecified nature of other specified sites	default_mapped_from	[X]Neoplasms of uncertain and unknown behaviour	C0694450
+C0694450	[X]Neoplasms of uncertain and unknown behaviour	default_mapped_to	Neoplasm of unspecified nature of other specified sites	C0154135
+C0153426	Malignant neoplasm of duodenum	default_outpatient_classification_of	Gastrointestinal cancers - small intestine	C5225772
+C4060580	Ineffective family health management	defining_characteristic_of	Failure to take action to reduce risk factor	C4063011
+C0268759	SLE glomerulonephritis syndrome, WHO class VI	definitional_manifestation_of	Immune System Finding	C1291764
+C0941036	Type of bleeding of duodenal ulcer	degree_of	Type IA: spurting arterial bleeding of duodenal ulcer	C0941037
+C3645626	SNOMED CT core	dependent_of	US National Library of Medicine maintained module	C3645708
+C0231000	Structure of exocelomic membrane	derives	Hypoblast	C1512561
+C0231002	Structure of extraembryonic mesoblast	derives_from	Mesoderm layer of secondary yolk sac membrane	C4254518
+C0230966	Chorionic cavity	developmental_stage_of	Carnegie stage 5c	C4247992
+C0026573	Morula (Embryonic Structure)	development_type_of	Gestational transformation	C4244165
+C1183495	Ectodermal cell	develops_from	Macroglial cell	C2336790
+C2336790	Macroglial cell	develops_into	Ectodermal cell	C1183495
+C5395728	Bioabsorbable multi-purpose collagen surgical mesh	device_characteristic_of	Bioabsorbable	C5395723
+C5396153	Eyelid massager	device_intended_site_of	Eyelid structure	C0015426
+C0188926	Reduction of closed talus fracture with manipulation and percutaneous pinning	device_used_by	Medical pins	C0175718
+C0005558	Biopsy	diagnosed_by	biopsied lesion	C0940828
+C0940828	biopsied lesion	diagnoses	Biopsy	C0005558
+C2874659	Other stimulant dependence with stimulant-induced sleep disorder	diagnostic_criteria_of	Amphetamine (or other stimulant)-induced sleep disorder, With moderate or severe use disorder	C4236979
+C1183867	Epithelium of main duct of prostatic gland	direct_cell_shape_of	Microvillus columnar	C1182676
+C0204862	Checking of splint	direct_device_of	Splint Device	C0038009
+C2327081	Zone 5 of circumflex branch of left coronary artery	direct_left_of	Zone 4 of circumflex branch of left coronary artery	C2340033
+C0197737	Extracapsular extraction of cataract by inferior temporal route	direct_morphology_of	Cataract	C0086543
+C0185522	Periosteotomy of facial bone	direct_procedure_site_of	Periosteum	C0031110
+C0225870	Ventricular septum	direct_right_of	Wall of right ventricle	C0504035
+C0456193	Direct left atrial pressure - x trough	direct_site_of	Left atrial structure	C0225860
+C0199832	Immunization for canine leptospirosis	direct_substance_of	Vaccine, immunoglobulin, AND/OR antiserum	C1630493
+C1518246	Malignant Stromal Cell	disease_excludes_abnormal_cell	Ampulla of Vater Signet Ring Cell Carcinoma	C1332249
+C4287950	t(10;17)(q22;p13)	disease_excludes_cytogenetic_abnormality	Uterine Corpus Tumor Resembling Ovarian Sex Cord Tumor	C4288046
+C1881876	Mixed Neoplastic Glandular and Squamous Cell Population	disease_excludes_finding	Gallbladder Flat Biliary Intraepithelial Neoplasia	C1708173
+C0030274	Pancreas	disease_excludes_metastatic_anatomic_site	Locally Advanced Unresectable Pancreatic Adenocarcinoma	C4744358
+C1518782	PDGFRA Gene Mutation	disease_excludes_molecular_abnormality	Chronic eosinophilic leukemia	C0346421
+C0032112	Plasma Cells	disease_excludes_normal_cell_origin	Hodgkin's lymphoma of small intestine	C1335998
+C0014609	Epithelium	disease_excludes_normal_tissue_origin	Vaginal Botryoid-Type Embryonal Rhabdomyosarcoma	C1511275
+C0005682	Urinary Bladder	disease_excludes_primary_anatomic_site	Bronchial adenoma	C0149845
+C1513973	Neoplastic Glandular Cell	disease_has_abnormal_cell	Endometrial Endometrioid Adenocarcinoma with Spindled Epithelial Cells	C1336913
+C1883664	Mini-BEAM Regimen	disease_has_accepted_treatment_with_regimen	Refractory Hodgkin Lymphoma	C0855082
+C0012240	Gastrointestinal system	disease_has_associated_anatomic_site	tubulovillous adenoma of stomach	C1333793
+C0348374	Malignant Central Nervous System Neoplasm	disease_has_associated_disease	Turcot Syndrome Type 2	C1519703
+C1421516	WNT6 gene	disease_has_associated_gene	Carcinoma, Ovarian Epithelial	C4721610
+C1512572	Hypotriploidy	disease_has_cytogenetic_abnormality	Testicular Yolk Sac Tumor, Solid Pattern	C1515312
+C1707292	Carcinomatous Component Present	disease_has_finding	ENSAT Stage II Adrenal Cortex Carcinoma	C3641710
+C0020629	hypopharynx	disease_has_metastatic_anatomic_site	Secondary malignant neoplasm of hypopharynx	C0684964
+C1515562	MYC Gene Amplification	disease_has_molecular_abnormality	Stage I Adult Burkitt Lymphoma	C0279963
+C1512385	Hematopoietic and Lymphoid Cell	disease_has_normal_cell_origin	Cyclic neutropenia	C0221023
+C0014609	Epithelium	disease_has_normal_tissue_origin	Cardiac Paraganglioma	C1332851
+C0012240	Gastrointestinal system	disease_has_primary_anatomic_site	Chemical Gastritis	C2830012
+C0475269	Tumor grade G1	disease_is_grade	Pancreatic Intraepithelial Neoplasia-1	C1333869
+C0919425	CYP1A1 gene	disease_is_marked_by_gene	Carcinoma of lung	C0684249
+C0441766	Stage level 1	disease_is_stage	Mucoepidermoid carcinoma of the oral cavity stage I	C0280346
+C0008654	Chromosomes, Human, Pair 12	disease_mapped_to_chromosome	Chronic lymphocytic leukaemia stage 1	C0278767
+C0079419	TP53 gene	disease_mapped_to_gene	Cervical Mucinous Adenocarcinoma, Signet Ring Cell-Type	C1516424
+C1512107	Dysplastic Neutrophil	disease_may_have_abnormal_cell	Acute Megakaryocytic Leukemias	C0023462
+C0476089	Endometrial Carcinoma	disease_may_have_associated_disease	Carcinoma, Ovarian Epithelial	C4721610
+C1517989	Loss of Chromosome 7	disease_may_have_cytogenetic_abnormality	Adult Oligodendroglial Tumor	C1541567
+C1511605	Cystic Change	disease_may_have_finding	Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7	C3897506
+C1517998	Loss of E-cadherin Expression	disease_may_have_molecular_abnormality	Adenoid cystic carcinoma of the oral cavity stage II	C0280352
+C1514186	Pluripotent Bone Marrow Stem Cell	disease_may_have_normal_cell_origin	Myeloproliferative Neoplasm, Unclassifiable	C1333046
+C1881790	Mesonephric Remnants	disease_may_have_normal_tissue_origin	Mesonephric-like adenocarcinoma	C5548439
+C4287815	brigatinib	disposition_of	Protein-tyrosine kinase inhibitor (disposition)	C4521478
+C1184015	Distal part of prostatic urethra	distal_to	Membranous urethra structure	C0458453
+C0798197	Amylase.S2/Amylase.total:CFr:Pt:Ser/Plas:Qn	divisor_of	Amylase.total	C1441356
+C3205675	dichlorphenamide Pill	doseformgroup_of	Pills	C0994475
+C0991534	Oral Cream	dose_form_administration_method_of	Apply (administration method)	C4521676
+C1707970	Prolonged-release oral coated capsule	dose_form_intended_site_of	Oral (intended site)	C4521986
+C2355881	diphtheria toxoid vaccine, inactivated / tetanus toxoid vaccine, inactivated Injectable Suspension	dose_form_of	Injectable Suspension	C0991512
+C1707973	Extended Release Film Coated Capsule Dosage Form	dose_form_release_characteristic_of	Prolonged-release	C4544856
+C1272866	Powder for rectal suspension	dose_form_transformation_of	Disperse	C4545472
+C0370248	Anesthesia for reconstructive procedures of eyelid (eg, blepharoplasty, ptosis surgery)	do_not_code_with	Irrigation of implanted venous access device for drug delivery systems	C1609555
+C0458293	Intestinal lymphatic trunk	drains_into	Inferior para-aortic lymph node group	C4254817
+C0026703	Mucopolysaccharidoses	due_to	Cerebral degeneration in mucopolysaccharidosis	C0342838
+C0543467	Operative Surgical Procedures	during	Injury of bladder during surgery	C4517366
+C0010620	cyproheptadine	effect_may_be_inhibited_by	fluoxetine	C0016365
+C1183684	Pectoral axillary lymphatic chain	efferent_to	Lymphatic tree of skin of breast	C2333369
+C1522428	Recombinant Interleukin-1	endogenous_product_related_to	Interleukin-1	C0021755
+C1155829	meiotic telophase I	ends_during	meiosis I	C1155812
+C0475093	Thyroid tumor/metastasis irradiation	energy_used_by	Radiation	C0851346
+C0040748	Transplanted skin	entire_anatomy_structure_of	Entire transplanted skin	C4512116
+C0031760	Photoreceptors	entry_version_of	Photoreceptors	C0031760
+C0724693	sildenafil citrate	enzyme_metabolizes_chemical_or_drug	cytochrome P450 3A4 protein, human	C1142644
+C1883114	Squamous Cell Hyperplasia of the Rat Esophagus	eo_anatomy_is_associated_with_eo_disease	Rat Preputial Gland	C1882831
+C1522074	Skin - Melanocyte (MMHCC)	eo_disease_has_associated_cell_type	Mouse Melanoma	C1522102
+C1511956	Mouse Digestive System	eo_disease_has_associated_eo_anatomy	Erosion of the Mouse Intestinal Tract	C1516957
+C0205183	Benign	eo_disease_has_property_or_attribute	Mouse Benign Melanocytic Neoplasms	C1522100
+C0031347	Pharyngeal Neoplasms	eo_disease_maps_to_human_disease	Non-Keratinizing Carcinoma of the Mouse Pharynx With Lymphoid Stroma	C1518364
+C2108072	continuous electrocardiogram atrial premature depolarization frequent	episodicity_of	Ongoing episode	C0580798
+C1533685	Injection procedure	evaluation_of	Injected material	C0940886
+C1709883	Regional Lymph Node Dissection	excised_anatomy_has_procedure	lymph nodes	C0024204
+C0024884	Mastectomy, Radical	excised_anatomy_may_have_procedure	Axillary lymph node group	C0729594
+C0033384	Procollagen-Proline Dioxygenase	exhibited_by	prolyl 4-hydroxylase activity	C1622631
+C1622631	prolyl 4-hydroxylase activity	exhibits	Procollagen-Proline Dioxygenase	C0033384
+C1965719	Comprehensive prolonged new home visit 180 minutes homeopathic intake	expanded_form_of	Comprehensive prolonged new home visit 180 minutes homeopathic intake	C1965719
+C0011991	Diarrhea	expected_outcome_of	Improved	C0184511
+C1272790	Status of venous (large vessel)/lymphatic (small vessel) invasion by tumor	extended_to_by_process	Structure of lymphatic vessel and/or small blood vessel	C5548423
+C0400038	Other specified total excision of colon	extent_of	Total	C0439810
+C0227963	Structure of capsule of prostate	external_to	Neurovascular bundle of prostate	C0836251
+C4708703	Saline-filled smooth breast implant	filling_of	sodium chloride	C0037494
+C1313937	Family history of diabetes mellitus	finding_context_of	Known present	C1444639
+C2586046	On examination - left red reflex	finding_informer_of	Performer of method	C1689969
+C2119739	x-ray of elbow: bony overgrowth	finding_method_of	Radiography of elbow	C0411904
+C2228423	examination of anterior tonsillar pillar	finding_site_of	Faucial pillar	C0229872
+C0186560	Injection procedure for shoulder arthrography	focus_of	Radiographic imaging procedure	C1962945
+C4242577	Right medial nasal process	formed_by	Primordium of septum of nose	C4251481
+C4251480	Primordium of dorsum of nose	forms	Left medial nasal process	C4242578
+C2343853	fesoterodine	form_of	fesoterodine fumarate	C2343854
+C0231024	Neural tube	full_grown_phenotype_of	Central Nervous System	C3714787
+C4242570	Right nasal pit	fuses_with	Left nasal pit	C4242571
+C4242702	Right palatal shelf	fusion_of	Embryonic secondary palate	C4242704
+C0268287	Deficiency of steroid 21-monooxygenase	genetic_biomarker_related_to	CYP21A2 gene	C1413861
+C0020517	Hypersensitivity	gene_associated_with_disease	XRCC2 wt Allele	C1710689
+C1430023	TRIM29 protein, human	gene_encodes_gene_product	Transcription Regulation Gene	C1710463
+C0086418	Homo sapiens	gene_found_in_organism	HLA-DQB1 gene	C1415572
+C1515757	t(2;5)(p23;q35)	gene_has_abnormality	NPM1/ALK Fusion Gene	C4551875
+C1520713	17: 29621353-29623369	gene_has_physical_location	CCL7 wt Allele	C1704902
+C1707138	COL1A1-PDGFbeta Fusion Protein Expression	gene_involved_in_molecular_abnormality	COL1A1 gene	C1332772
+C0279651	Gallbladder adenocarcinoma	gene_involved_in_pathogenesis_of_disease	KRAS gene	C1537502
+C1520792	17q25.3	gene_in_chromosomal_location	GALR2 wt Allele	C1708116
+C0600139	Prostate carcinoma	gene_is_biomarker_of	KLK15 wt Allele	C1705548
+C1511876	Diagnostic Factor	gene_is_biomarker_type	MME wt Allele	C1706431
+C2984263	T Cell Receptor Signaling Pathway KEGG	gene_is_element_in_pathway	IL4 wt Allele	C1708435
+C2217035	Stage IIA Colon Cancer AJCC v7	gene_mapped_to_disease	TP53 gene	C0079419
+C3274263	EGFR NP_005219.2:p.S752_I759del	gene_mutant_encodes_gene_product_sequence_variation	EGFR NM_005228.3:c.2254_2277del24	C3274264
+C1515126	T-Cell Development	gene_plays_role_in_process	ATM gene	C0919524
+C0040845	tretinoin	gene_product_affected_by_chemical_or_drug	Retinoic Acid Receptor	C0140278
+C1335671	Receptor Gene	gene_product_encoded_by_gene	Receptors, Cytokine	C0206552
+C0035322	Structure of retinal pigment epithelium	gene_product_expressed_in_tissue	BCMO1 protein, human	C1313655
+C1517100	FUS-DDIT3 Fusion Protein Expression	gene_product_has_abnormality	FUS/DDIT3 Fusion Protein	C3274656
+C1383501	Cytoplasmic matrix	gene_product_has_associated_anatomy	DDC protein, human	C4042618
+C0020289	Hydrolase	gene_product_has_biochemical_function	6-Phosphofructo-2-Kinase/Fructose-2,6-Biphosphatase 3	C3539535
+C1180069	Membrane protein of mitochondrion	gene_product_has_chemical_classification	ATP-Binding Cassette Sub-Family F Member 2	C3831456
+C3274355	EGFR NP_005219.2:p.H773_V774insG	gene_product_has_gene_product_variant	EGFR protein, human	C1739039
+C0086418	Homo sapiens	gene_product_has_organism_source	TFAP2C protein, human	C1529556
+C1519623	Transmembrane Domain	gene_product_has_structural_domain_or_motif	HLA-DR Antigens	C0019764
+C0684249	Carcinoma of lung	gene_product_is_biomarker_of	CYP1A1 protein, human	C3252639
+C1513179	Metastasis and Aggressiveness Marker	gene_product_is_biomarker_type	MMP11 protein, human	C1723260
+C2984251	Neuroactive Ligand-Receptor Signaling Pathway	gene_product_is_element_in_pathway	Pro-Opiomelanocortin, human	C3889630
+C0076919	Transcription Factor TFIID	gene_product_is_physical_part_of	TAF1 protein, human	C1146629
+C0152013	Adenocarcinoma of lung (disorder)	gene_product_malfunction_associated_with_disease	TACSTD1 protein, human	C0903677
+C0162493	Transcriptional Activation	gene_product_plays_role_in_biological_process	CREB-Regulated Transcription Coactivator 3	C2987036
+C3272694	PIK3CA Gene Mutation	gene_product_sequence_variation_encoded_by_gene_mutant	PIK3CA NP_006209.2:p.E545Q	C3274118
+C0668624	AKT1 protein, human	gene_product_variant_of_gene_product	AKT1 NP_001014431.1:p.E17K	C3273954
+C1181291	Endo-epithelium	germ_origin_of	Endoderm	C0014144
+C4295511	intraoperative transluminal angioplasty additional vein	grade_of	Operative procedure on vein	C0190975
+C0025344	Menstruation	happens_during	uterine wall breakdown	C1326746
+C5396168	Partially bioabsorbable	has_absorbability	Partially-bioabsorbable composite spinal fusion cage	C4040743
+C0522523	Percutaneous	has_access	Reduction of closed talus fracture with manipulation and percutaneous pinning	C0188926
+C1289883	Flexible fiberoptic endoscope	has_access_instrument	Fiberoptic ileoscopy through stoma	C0192703
+C0882056	Guidance for percutaneous biopsy:Find:Pt:Pelvis:Doc:CT	has_action_guidance	Biopsy	C0005558
+C0303275	Potassium and/or potassium compound-containing product	has_active_ingredient	potassium Oral Product	C0357141
+C0000618	mercaptopurine	has_active_metabolites	azathioprine	C0004482
+C0000970	acetaminophen	has_active_moiety	acetaminophen 500 MG Oral Tablet	C0691089
+C0184511	Improved	has_actual_outcome	Sleep Deprivation	C0037316
+C3511583	Interactive complexity (List separately in addition to the code for primary procedure)	has_add_on_code	Psychotherapy, 45 minutes with patient	C3526570
+C0228131	Cranial pia mater	has_adherent	Brain	C0006104
+C1439358	Adjusted to patients actual temperature	has_adjustment	Oxygen^^adjusted to patient's actual temperature:PPres:Pt:Bld:Qn	C0802157
+C0439801	Limited (extensiveness)	has_aggregation_view	Multisection limited:Find:Pt:Extremity:Doc:CT	C1524445
+C1426329	AAK1 gene	has_alias	AAK1 gene	C1426329
+C1863444	CHRNG, 2-BP DEL, 753CT	has_allelic_variant	CHRNG gene	C1413413
+C2711218	Evaluation of oculomotor system abnormal	has_alternative	Oculomotor study abnormal	C0159106
+C0807444	Platelet satellitism	has_answer	Platelet morphology finding:Prid:Pt:Bld:Nom	C0549842
+C0442355	Transgastric approach	has_approach	Insertion of tubal prosthesis into esophagus via stomach	C0473000
+C2361223	Guidance for percutaneous replacement of drainage tube:Find:Pt:Abdomen:Doc:CT	has_approach_guidance	Percutaneous	C0522523
+C1315135	Adrenal Ab:Titr:Pt:Ser:Qn	has_archetype	Adrenal Ab&#x7C;Titr&#x7C;Pt&#x7C;ANYBldSerPl	C5214775
+C0923683	Lateral frontobasal artery	has_arterial_supply	Lateral orbital gyrus	C0262268
+C4062585	Prescribed immobility	has_associated_condition	At risk for disuse syndrome	C1268625
+C0014236	Endophthalmitis	has_associated_etiologic_finding	Uveitic glaucoma	C1281939
+C1263864	Blindness AND/OR vision impairment level	has_associated_finding	FH: Blindness/low vision	C0455399
+C0018767	Hearing	has_associated_function	O/E - hearing	C0587140
+C2242558	Pathologic calcification, calcified structure	has_associated_morphology	abdominal x-ray, AP view: hepatic calcification	C2227724
+C2919678	Percentage of predicted forced vital capacity	has_associated_observation	FVC % of predicted value	C2238301
+C1522449	Therapeutic radiology procedure	has_associated_procedure	Family history of radiation therapy	C2315906
+C4063083	Extremes of age	has_at_risk_population	Impaired tissue integrity	C0150085
+C1382100	Solution Dosage Form	has_basic_dose_form	Nasal solution spray	C1273000
+C0903898	nateglinide	has_basis_of_strength_substance	nateglinide 60 MG Oral Tablet	C0981630
+C0006383	Accessory atrioventricular bundle (body structure)	has_branch	Ventricular part of atrioventricular bundle	C0504041
+C0032914	Pre-Eclampsia	has_british_form	Pre-Eclampsia	C0032914
+C0038739	Sulfides	has_causative_agent	exposure to sulfides dust	C2220440
+C1439886	post XXX challenge	has_challenge	Calcitonin^4th specimen post XXX challenge:MCnc:Pt:Ser/Plas:Qn	C0549904
+C1315022	Electrocardiogram measures	has_class	R' wave amplitude.lead V5:Elpot:Pt:Heart:Qn:EKG	C0489350
+C2945760	Recurrent	has_clinical_course	Recurrent pulmonary embolism	C1735914
+C0198869	Anesthesia for procedure on nose and accessory sinuses	has_clinician_form	Anesthesia for procedure on nose and accessory sinuses	C0198869
+C0063083	Hydrogel	has_coating_material	Foley 2-way hydrogel coated latex male length urethral catheter with water filled syringe	C5545749
+C0488417	R wave duration.lead I:Time:Pt:Heart:Qn:EKG	has_common_name	R wave duration.lead I:Time:Pt:Heart:Qn:EKG	C0488417
+C0559870	Open injury	has_communication_with_wound	Open fracture of base of neck of femur	C0159820
+C0019878	homocysteine	has_component	Plasma homocysteine measurement after methionine load	C2586090
+C0025552	Metals	has_compositional_material	Bare metal colonic stent	C3876691
+C0439242	milliliter	has_concentration_strength_denominator_unit	calcium glubionate 218 MG/ML / calcium lactobionate 145 MG/ML Oral Solution	C0792710
+C0205447	One	has_concentration_strength_denominator_value	cefuroxime 25 MG/ML Oral Suspension	C0975417
+C0439210	milligram	has_concentration_strength_numerator_unit	cefixime 20 MG/ML Oral Suspension	C0975351
+C3816746	400	has_concentration_strength_numerator_value	brompheniramine maleate 0.4 MG/ML Oral Solution	C0693257
+C0940882	Dilation size	has_conceptual_part	Dilated	C0700124
+C0584646	Myotendinous Junction	has_connection_type	Myotendinous junction plate	C1183437
+C2338290	Endothelium of nodulus of left posterior cusp of aortic valve	has_constitutional_part	Nodulus of left posterior cusp of aortic valve	C0503915
+C3527447	Anesthesia for procedure on mouth to repair palate deformity	has_consumer_friendly_form	Anesthesia for intraoral procedures, including biopsy; repair of cleft palate	C0370252
+C1550327	Administrative Gender	has_context_binding	Administrative Gender	C1550327
+C0835831	Posterior cord of left brachial nerve plexus	has_continuation_branch	Trunk of left superior subscapular nerve	C0935411
+C0288165	delavirdine	has_contraindicated_class	Ergotamines	C0014711
+C0981808	acetylsalicylate sodium	has_contraindicated_drug	Virus Diseases	C0042769
+C0354872	cyproheptadine hydrochloride	has_contraindicated_mechanism_of_action	Monoamine Oxidase Inhibitors [MoA]	C2756978
+C0291771	alosetron hydrochloride	has_contraindicated_physiologic_effect	Increased Coagulation Factor Activity	C1372256
+C0205449	Three	has_count	Bacteria identified^^^3:Prid:Pt:Genital:Nom:Aerobic culture	C1145721
+C0205448	Two	has_count_of_active_ingredient	Live attenuated Human poliovirus serotypes 1 and 3 antigens only vaccine product in oral dose form	C5397302
+C0205447	One	has_count_of_base_of_active_ingredient	dolutegravir 50 MG Oral Tablet	C3663834
+C0205374	Transitory	has_course	Transient arthropathy of acromioclavicular joint	C0409806
+C4684976	CTCAE by Body System	has_ctcae_5_parent	Nervous System Disorders, CTCAE	C4554606
+C0008652	Chromosomes, Human, Pair 10	has_ctdc_value	Chromosomes	C0008633
+C0679250	Disease Outcome	has_data_element	CDISC SDTM Disease Outcome Terminology	C3542417
+C0178238	Intestinal infectious disease (disorder)	has_default_inpatient_classification	Salmonella food poisoning	C0036114
+C0178238	Intestinal infectious disease (disorder)	has_default_outpatient_classification	Typhoid Fever	C0041466
+C4062931	Insufficient emptying of each breast per feeding	has_defining_characteristic	Abnormal breast feeding	C3887479
+C1291764	Immune System Finding	has_definitional_manifestation	SLE glomerulonephritis syndrome, WHO class VI	C0268759
+C0941037	Type IA: spurting arterial bleeding of duodenal ulcer	has_degree	Type of bleeding of duodenal ulcer	C0941036
+C3645626	SNOMED CT core	has_dependent	SNOMED CT model component module (core metadata concept)	C3540690
+C4242667	Carnegie stage 13	has_developmental_stage	Right maxillary process	C4244397
+C4249501	Anatomical fusion	has_development_type	Embryonic secondary palate	C4242704
+C0232920	Sterile (qualifier value)	has_device_characteristic	Polyurethane foam film dressing sterile without adhesive border 10cm x 25cm rectangular	C1303450
+C0006141	Breast	has_device_intended_site	Saline-filled smooth breast implant	C4708703
+C4236917	Adult sexual abuse by nonspouse or nonpartner, Confirmed, Initial encounter	has_diagnostic_criteria	Adult sexual abuse, confirmed, initial encounter	C2886537
+C1298908	no	has_dipg_dmg_permissible_value	Abnormal behavior	C0233514
+C1182671	Cuboidal	has_direct_cell_shape	Epithelium of main duct of prostatic gland	C1183867
+C0005846	Blood Vessel Prosthesis	has_direct_device	Insertion of arteriovenous prosthesis	C0398226
+C0000768	Congenital Abnormality	has_direct_morphology	Correction of congenital deformity of hip	C0409004
+C0023884	Liver	has_direct_procedure_site	Percutaneous needle biopsy liver	C1261294
+C0006087	Structure of brachial artery	has_direct_site	Brachial pulse rate	C1720094
+C0439861	Substance	has_direct_substance	Drainage of Skene's gland cyst	C0194554
+C4521961	Isomerase (disposition)	has_disposition	ornithine racemase	C0312340
+C1441345	100 spermatozoa	has_divisor	Spermatozoa.abnormal head/100 spermatozoa:NFr:Pt:Semen:Qn	C0485065
+C3205659	Topical Product	has_doseformgroup	diclofenac / troxerutin Topical Product	C3205680
+C0039226	Delayed Release Oral Tablet	has_dose_form	acamprosate Delayed Release Oral Tablet	C2355930
+C4521676	Apply (administration method)	has_dose_form_administration_method	Nasal Cream	C0991523
+C4521780	Gastroenteral (intended site)	has_dose_form_intended_site	Gastroenteral dose form	C1272929
+C4544675	Conventional release	has_dose_form_release_characteristic	Nasal Gel	C0991526
+C4545472	Disperse	has_dose_form_transformation	Extended-release granules for suspension	C1707975
+C1284392	Entire dentin	has_entire_anatomy_structure	Dentin	C0011429
+C0034060	Pulmonary Medicine	has_entry_version	Pulmonary Medicine	C0034060
+C0580798	Ongoing episode	has_episodicity	continuous electrocardiogram atrial premature depolarization frequent	C2108072
+C0449517	Type of prosthesis	has_evaluation	Prosthesis Implantation	C0525024
+C4070481	Multisection 3D post processing^WO & W contrast IV:Find:Pt:Abdomen>Kidney & Abdomen+Pelvis>Ureter & Pelvis>Urinary bladder:Doc:CT	has_exam	3D post processing	C4071816
+C0205503	Transthoracic approach	has_excluded_approach	Total or near total esophagectomy, without thoracotomy; with pharyngogastrostomy or cervical esophagogastrostomy, with or without pyloroplasty (transhiatal)	C0371960
+C0003534	Aphakia	has_excluded_associated_finding	Prescription of optical and physical characteristics of and fitting of contact lens, with medical supervision of adaptation; corneal lens, both eyes, except for aphakia	C0374220
+C0489913	Closed treatment of metacarpophalangeal dislocation, single, with manipulation; without anesthesia	has_excluded_associated_procedure	Anesthesia procedures	C0002903
+C0302050	Antigen in Rh blood group system	has_excluded_component	Blood typing, serologic; RBC antigens, other than ABO or Rh (D), each	C0373964
+C0085904	Free Standing Birthing Center	has_excluded_locale	Initial care, per day, for evaluation and management of normal newborn infant seen in other than hospital or birthing center	C2366751
+C0947647	Manipulation procedure	has_excluded_method	Closed treatment of acetabulum (hip socket) fracture(s); without manipulation	C0186303
+C0037293	Skin tag	has_excluded_pathology	Excision, benign lesion including margins, except skin tag (unless listed elsewhere), trunk, arms or legs; excised diameter over 4.0 cm	C0370397
+C0021270	Infant	has_excluded_patient_type	Meatotomy, cutting of meatus (separate procedure); except infant	C0372424
+C1275732	Implantable venous access port	has_excluded_procedure_device	Replacement, complete, of a non-tunneled centrally inserted central venous catheter, without subcutaneous port or pump, through same venous access	C1314044
+C0222224	Skin structure of hand	has_excluded_procedure_site	Repair, intermediate, wounds of scalp, axillae, trunk and/or extremities (excluding hands and feet); 7.6 cm to 12.5 cm	C0370472
+C1522726	Intravenous Route of Drug Administration	has_excluded_route_of_administration	Transcranial Doppler study of the intracranial arteries; emboli detection without intravenous microbubble injection	C1504189
+C0178913	Blood specimen	has_excluded_specimen	Uric acid; other source	C0373740
+C0439807	Radical (qualifier value)	has_excluded_surgical_extent	Thymectomy, partial or total; sternal split or transthoracic approach, without radical mediastinal dissection (separate procedure)	C0372679
+C1965718	Comprehensive prolonged new home visit 150 minutes homeopathic intake	has_expanded_form	Comprehensive prolonged new home visit 150 minutes homeopathic intake	C1965718
+C0184511	Improved	has_expected_outcome	Sleep pattern disturbance	C0150079
+C0439810	Total	has_extent	Other specified total excision of colon	C0400038
+C0037494	sodium chloride	has_filling	Saline-filled textured breast implant	C4708705
+C1444639	Known present	has_finding_context	Family history of diabetes mellitus	C1313937
+C1637797	Subject of record or other provider of history	has_finding_informer	Apparent life threatening event	C1610642
+C0412534	Ultrasonography of liver	has_finding_method	Ultrasound liver normal	C0853566
+C0687025	Muscle of buttock	has_finding_site	muscle cramps in buttock or hip region occurring at night	C2130262
+C0199396	Counseling for termination of pregnancy	has_focus	Referral for counseling for termination of pregnancy	C0579134
+C0770720	diphtheria toxoid adsorbed	has_form	diphtheria toxoid vaccine, inactivated	C0012551
+C0051654	aminopentamide	has_free_acid_or_base_form	Aminopentamide Hydrochloride	C2698090
+C3714787	Central Nervous System	has_full_grown_phenotype	Neural tube	C0231024
+C4242704	Embryonic secondary palate	has_fusion	Left palatal shelf	C4242703
+C4745311	Tumor Regression Score 0	has_gdc_value	Tumor Regression Grade	C3827752
+C1531189	CTNNB1 protein, human	has_gene_product_element	Mucosal Healing Pathway	C1513724
+C0014144	Endoderm	has_germ_origin	Endo-epithelium	C1181291
+C1979874	Contrast	has_given_pharmaceutical_substance	Multisection^W contrast IV:Find:Pt:Head:Doc:CT	C0881945
+C0190975	Operative procedure on vein	has_grade	intraoperative transluminal angioplasty initial vein	C4295510
+C1705108	Yes (indicator)	has_icdc_value	Neutered Indicator	C4764182
+C0018670	Head	has_imaged_location	Multisection:Find:Pt:Head:Doc:CT.perfusion	C0881946
+C0037004	Shoulder	has_imaging_focus	Multisection:Finding:Point in time:Shoulder:Narrative:MRI	C0882088
+C0001962	ethanol	has_inactive_ingredient	Artemisia Abrotanum Flowering Top 15 [hp_X] in 1 mL / Horse Chestnut 15 [hp_X] in 1 mL / Garlic 15 [hp_X] in 1 mL / Arsenic Trioxide 15 [hp_X] in 1 mL / Artemisia Vulgaris Root 15 [hp_X] in 1 mL / Baptisia Tinctoria 15 [hp_X] in 1 mL / Artemisia Maritima Flower 15 [hp_X] in 1 mL / Copper 15 [hp_X] in 1 mL / Dryopteris Filix-mas Root 15 [hp_X] in 1 mL / Punica Granatum Root Bark 15 [hp_X] in 1 mL / Ipecac 15 [hp_X] in 1 mL / Lachesis Muta Venom 15 [hp_X] in 1 mL / Lycopodium Clavatum Spore 15 [hp_X] in 1 mL / Mercury 15 [hp_X] in 1 mL / Naphthalene 15 [hp_X] in 1 mL / Sodium Chloride 15 [hp_X] in 1 mL / Strychnos Nux-vomica Seed 15 [hp_X] in 1 mL / Pulsatilla Vulgaris 15 [hp_X] in 1 mL / Krameria Lappacea Root 15 [hp_X] in 1 mL / Ruta Graveolens Flowering Top 15 [hp_X] in 1 mL / Schoenocaulon Officinale Seed 15 [hp_X] in 1 mL / Santonin 15 [hp_X] in 1 mL / Silicon Dioxide 15 [hp_X] in 1 mL / Spigelia Anthelmia 15 [hp_X] in 1 mL / Turpentine Oil 15 [hp_X] in 1 mL / Teucrium Marum 15 [hp_X] in 1 mL / Thymol 15 [hp_X] in 1 mL / Ginger 15 [hp_X] in 1 mL / English Walnut 3 [hp_X] in 1 mL ORAL LIQUID [Parasites]	C3504606
+C4743789	Neonatal Adverse Event	has_inc_parent	Neonatal Culture Negative Sepsis, Adverse Event	C4743797
+C0444271	Ventricular reservoir	has_indirect_device	Medication administration: ventricular reservoir	C0262714
+C0027651	Neoplasms	has_indirect_morphology	Injection of chemotherapeutic substance into tumour of brain tissue	C0472409
+C0023884	Liver	has_indirect_procedure_site	Transplantation of liver	C0023911
+C0722378	Oyster brand of calcium carbonate	has_ingredient	calcium carbonate 1250 MG Oral Tablet	C0936177
+C1720107	benzalkonium / tolnaftate	has_ingredients	benzalkonium 1 MG/ML / tolnaftate 100 MG/ML Topical Cream	C1346383
+C0445550	Low dose	has_ingredient_characteristic	Acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product	C5397502
+C0445550	Low dose	has_ingredient_qualitative_strength	Vaccine product containing only low dose acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae antigens (medicinal product)	C5399685
+C1166795	Spindle	has_inherent_3d_shape	Skeletal Myocytes	C1704336
+C0428641	Jugular bulb pressure	has_inherent_attribute	Structure of inferior bulb of internal jugular vein	C0226552
+C0229665	Blood arterial	has_inherent_location	Saturation of Peripheral Oxygen	C2317096
+C1853237	Isolated cases	has_inheritance_type	Mental Retardation with Optic Atrophy, Facial Dysmorphism, Microcephaly, and Short Stature	C1836915
+C0816401	Right coracoid process	has_insertion	Right pectoralis minor	C0507189
+C0180274	Cystoscopes	has_instrumentation	Endoscopic suburethral injection of collagen in female	C0554155
+C1456501	Preventive intent	has_intent	Pasteurization	C0597885
+C1446409	Positive	has_interpretation	BRCA1 gene mutation positive	C1445905
+C0675838	TAC 101	has_lab_number	Amsilarotene	C2830076
+C0205090	Right	has_laterality	sensation of something floating in right thumb joint	C2127770
+C0238767	Bilateral	has_lateral_anatomic_location	Multisection:Find:Pt:Upper extremity.bilateral>Forearm:Doc:CT	C1524390
+C0205238	True	has_lateral_location_presence	Multisection:Find:Pt:Head>Internal auditory canal:Doc:CT	C1524353
+C3669635	Lives in water	has_life_circumstance	Cold-blooded aquatic animal	C3687496
+C2585313	Outpatient environment	has_locale	Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. When using time for code selection, 30-39 minutes of total time is spent on the date of the encounter.	C0374560
+C0005423	Biliary tract structure	has_location	Injection procedure	C1533685
+C3173540	Progress note:Find:Pt:Hospital:Doc:Pulmonary disease.medical student	has_loinc_number	Progress note&#x7C;ANYRole&#x7C;ANYSetting	C5220260
+C2335919	Lymphatic tree of central part of fibroglandular mass proper of breast	has_lymphatic_drainage	Central part of fibroglandular mass proper of breast	C2324945
+C0231472	Standing position	has_maneuver_type	Views^W standing:Find:Pt:Lower extremity.left>Great toe:Doc:XR	C1525880
+C0155789	Bleeding esophageal varices	has_manifestation	Esophageal Varices	C0014867
+C0000769	teratologic	has_mapping_qualifier	Ramer Ladda syndrome	C2930865
+C0033684	Proteins	has_measured_component	CSF globulin measurement	C0428532
+C0344440	Hemoglobin Electrophoresis	has_measurement_method	Determination of hemoglobin subtype using electrophoresis	C2711868
+C1373094	Cellular or Molecular Interactions	has_mechanism_of_action	ezetimibe	C1142985
+C0155019	Abnormal dark adaptation curve	has_member	Optic nerve disorders (SMQ)	C2363983
+C0449327	Method of biopsy	has_method	Biopsy	C0005558
+C4071827	Angio	has_modality_subtype	Multisection^W contrast IV:Find:Pt:Abdomen>Abdominal vessels:Doc:MR.angio	C0881775
+C0040405	X-Ray Computed Tomography	has_modality_type	Guidance for percutaneous aspiration of fluid:Find:Pt:Pelvis:Doc:CT	C0882055
+C0282128	heroin hydrochloride	has_modification	heroin	C0011892
+C0005424	Biliary Tract Diseases	has_multi_level_category	Biliary Tract Diseases	C0005424
+C0501767	Left first lumbar spinal ganglion	has_nerve_supply	Uterus	C0042149
+C1524337	Guidance for placement of tube:Find:Pt:Chest:Doc:CT	has_object_guidance	biomedical tube device	C0175730
+C4242663	Carnegie stage 9	has_observed_anatomical_entity	Neural Groove	C0814992
+C0265338	Coffin-Siris syndrome	has_occurrence	Congenital qualifier	C1744681
+C1272517	Sudden onset (contextual qualifier) (qualifier value)	has_onset	Hearing Loss, Sudden	C0011057
+C0816440	Supraspinous fossa	has_origin	Head of supraspinatus	C4252685
+C0041700	United Kingdom	has_owning_affiliate	Great Britain	C0018223
+C3245510	Administrative Management Publishing Section	has_owning_section	financial information	C3242467
+C3242467	financial information	has_owning_subsection	accounting & billing	C3242438
+C0201899	Aspartate aminotransferase measurement	has_panel_element	Comprehensive Metabolic Panel	C0519825
+C2825096	Anti-IgE [EPC]	has_parent	omalizumab	C0966225
+C5214666	Chem_DrugTox_Chal_Sero_Allergy<SAME:Comp&#x7C;Prop&#x7C;Tm&#x7C;Syst (except intravascular and urine)><ANYBldSerPlas,ANYUrineUrineSed><ROLLUP:Method>	has_parent_group	(Alnus incana+Corylus avellana+Ulmus americana+Salix caprea+Populus deltoides) Ab.IgE&#x7C;ACnc&#x7C;Pt&#x7C;ANYBldSerPl	C5214709
+C0005423	Biliary tract structure	has_part	Biliary and pancreatic system	C0939965
+C1268100	Fibula part	has_part_anatomy_structure	Fibula	C0016068
+C0443146	Autoimmune reaction	has_pathological_process	SLE glomerulonephritis syndrome, WHO class VI	C0268759
+C0043250	Injury wounds	has_pathology	Incision and drainage, complex, postoperative wound infection	C0191289
+C0021289	Infant, Newborn	has_patient_type	Car seat/bed testing for airway integrity, for infants through 12 months of age, with continual clinical staff observation and continuous recording of pulse oximetry, heart rate and respiratory rate, with interpretation and report; 60 minutes	C3248243
+C0439673	Unknown	has_pcdc_all_permissible_value	CNS Involvement Status at Leukemia Diagnosis	C3899751
+C0011015	daunorubicin	has_pcdc_aml_permissible_value	Antineoplastic Agents	C0003392
+C0805701	Code	has_pcdc_data_type	Ethnicity	C0015031
+C1176468	Erythrocyte sedimentation rate measurement	has_pcdc_ews_permissible_value	Laboratory Test Name	C3891717
+C5444034	MicroRNA 373-3p Measurement	has_pcdc_gct_permissible_value	Laboratory Test Name	C3891717
+C0200635	Lymphocyte Count measurement	has_pcdc_hl_permissible_value	Laboratory Test Name	C3891717
+C0337438	Glucose measurement	has_pcdc_os_permissible_value	Laboratory Test Name	C3891717
+C0031157	Peritonsillar Abscess	has_permuted_term	Peritonsillar Abscess	C0031157
+C2348003	Agent Administration	has_pharmaceutical_administration_method	Nasal Powder	C1272999
+C4722630	Solution Dosage Form Category	has_pharmaceutical_basic_dose_form	Anticoagulant and Preservative Solution for Blood Dosage Form	C4725200
+C4724382	Environmental	has_pharmaceutical_intended_site	Bee Smoke Paper Dosage Form	C4725203
+C4724243	Conventional Release Mechanism of Action	has_pharmaceutical_release_characteristics	Beehive Dispersion Dosage Form	C4725120
+C1522726	Intravenous Route of Drug Administration	has_pharmaceutical_route	Multisection^W contrast IV:Find:Pt:Extremity.left:Doc:CT	C0945320
+C0205208	Solid	has_pharmaceutical_state_of_matter	Beehive Strip Dosage Form	C4725207
+C3830465	Dissolution Mixing	has_pharmaceutical_transformation	Bath Additive Dosage Form	C1272959
+C1373187	Renal Elimination	has_pharmacokinetics	medroxyprogesterone acetate	C0065864
+C1333991	Hereditary Non-Polyposis Colon Cancer Type 2	has_phenotype	MLH1, ARG265CYS	C3149062
+C0043519	Zona Pellucida	has_physical_part_of_anatomic_structure	Oocytes	C0029045
+C1371530	Decreased Cholesterol Absorption	has_physiologic_effect	colesevelam	C0541155
+C3687563	Physically mature	has_physiologic_state	Adult female dog for breeding	C3669480
+C0522523	Percutaneous	has_possibly_included_approach	Open treatment of ankle dislocation, with or without percutaneous skeletal fixation; without repair or internal fixation	C0489922
+C0392618	Postoperative infection	has_possibly_included_associated_finding	Exploration for postoperative hemorrhage, thrombosis or infection; abdomen	C0371769
+C0370271	Anesthesia for closed chest procedures; (including bronchoscopy) not otherwise specified	has_possibly_included_associated_procedure	Bronchoscopy	C0006290
+C0429774	Residual urine volume	has_possibly_included_component	Measurement of post-voiding residual urine and/or bladder capacity by ultrasound, non-imaging	C1144666
+C0011079	Debridement	has_possibly_included_method	Dressings and/or debridement of partial-thickness burns, initial or subsequent; small (less than 5% total body surface area)	C0370556
+C0201835	Adrenocorticotropic hormone measurement	has_possibly_included_panel_element	ACTH stimulation panel; for adrenal insufficiency This panel must include the following: Cortisol (82533 x 2)	C0373491
+C0016658	Fracture	has_possibly_included_pathology	Open treatment and/or reduction of vertebral fracture(s) and/or dislocation(s), posterior approach, one fractured vertebra or dislocated segment; lumbar	C0370813
+C0085537	Caregiver	has_possibly_included_patient_type	Rehabilitative therapy options discussed with patient (or caregiver) (Prkns)	C2939351
+C0079635	Internal Fixators	has_possibly_included_procedure_device	Open treatment of greater humeral tuberosity fracture, includes internal fixation, when performed	C0370884
+C0015641	Fascia	has_possibly_included_procedure_site	Debridement, muscle and/or fascia (includes epidermis, dermis, and subcutaneous tissue, if performed); first 20 sq cm or less	C2939401
+C1720462	Cardiac Intraventricular Route of Drug Administration	has_possibly_included_route_of_administration	Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with left heart catheterization including intraprocedural injection(s) for left ventriculography, when performed, catheter placement(s) in bypass graft(s) (internal mammary, free arterial, venous grafts) with bypass graft angiography	C2939321
+C0439855	Complex	has_possibly_included_surgical_extent	Open treatment of carpometacarpal dislocation, other than thumb; complex, multiple, or delayed reduction	C0371074
+C0982062	Cefaclor Monohydrate	has_precise_active_ingredient	Cefaclor 375 MG Extended Release Oral Tablet	C1165094
+C0017720	glucosamine sulfate	has_precise_ingredient	glucosamine sulfate 500 MG	C1127728
+C0277814	Sitting position	has_precondition	Sitting blood pressure	C0580946
+C0882010	Guidance for percutaneous biopsy:Find:Pt:Abdomen>Liver:Doc:CT	has_presence_guidance	Spatial guidance for medical procedure	C1959633
+C4319574	Capsule (unit of presentation)	has_presentation_strength_denominator_unit	amprenavir 150 MG Oral Capsule	C0794855
+C0205447	One	has_presentation_strength_denominator_value	capecitabine 500 MG Oral Tablet	C0694330
+C0439210	milligram	has_presentation_strength_numerator_unit	atorvastatin 80 MG Oral Tablet	C0872877
+C4319550	120	has_presentation_strength_numerator_value	alverine 120 MG Oral Capsule	C0595709
+C2829919	A1BG-AS1 gene	has_prev_name	A1BG-AS1 gene	C2829919
+C2829919	A1BG-AS1 gene	has_prev_symbol	A1BG-AS1 gene	C2829919
+C1305854	C8 innervation	has_primary_segmental_supply	Flexor digitorum profundus muscle of hand	C0224261
+C0040329	Tobacco	has_print_name	Tobacco	C0040329
+C0175673	Bale out	has_priority	Open chest cardiac massage	C0190043
+C0565964	Context values for actions	has_procedure_context	Conjunctival swab taken for virology	C2585114
+C0030163	Artificial cardiac pacemaker	has_procedure_device	Management of permanent pacemaker	C2315036
+C0740114	Ileostomy - stoma	has_procedure_morphology	Ileostomy transplantation to new site	C0192797
+C0225150	Structure of tarsal canal	has_procedure_site	ultrasound of tarsal canal	C2173900
+C1442770	24 Hours	has_process_duration	Estimated quantity of intake of carbohydrate in 24 hours	C5192886
+C4302288	Entire ventilation cycle process	has_process_output	Total breath rate	C0428678
+C0231335	Childhood	has_product_characteristic	Pediatric vaccine product containing only Hepatitis A virus antigen (medicinal product)	C5397351
+C4719764	Carbinoxamine Maleate Tablets	has_product_monograph_title	carbinoxamine Oral Tablet	C1245318
+C2338170	anterior thalamic radiations	has_projection	Medial Dorsal Nucleus	C0228329
+C0456603	Ratio	has_property	gamma-Glutamyltransferase/aspartate amino transferase ratio measurement	C0523651
+C0005903	Body Temperature	has_property_type	Oral temperature	C1532216
+C2684174	24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Diltzac]	has_quantified_form	Diltiazem Hydrochloride 120 MG Extended Release Oral Capsule [Diltzac]	C1694579
+C3532483	Allergic process	has_realization	Allergy to metals	C0577627
+C0015576	Family	has_recipient_category	Education of parent to support play	C2586173
+C0927866	Mesial surface layer of right second lower molar tooth	has_regional_part	Crown of right second lower molar tooth	C0928096
+C4246192	Early blastocyst	has_related_developmental_entity	Morula (Embryonic Structure)	C0026573
+C4062923	Inadequate milk supply	has_related_factor	Abnormal breast feeding	C3887479
+C0009566	Complication	has_result	Endoscopy, Gastrointestinal	C0079278
+C0439617	Revision	has_revision_status	Revision to open reduction of fracture dislocation and skeletal traction	C0407983
+C0392674	Exhaustion	has_risk_factor	Risk for frail elderly syndrome	C4060584
+C0205528	Intra-articular route	has_route_of_administration	Administration of radiopharmaceutical agent via intraarticular route	C2584933
+C0282162	emetine hydrochloride	has_salt_form	emetine	C0013974
+C0392762	Quantitative (qualifier value)	has_scale	R wave duration.lead V2:Time:Pt:Heart:Qn:EKG	C0489335
+C0205556	Qualitative	has_scale_type	Qualitative measurement of myoglobin in urine	C2584627
+C1305860	C6 innervation	has_secondary_segmental_supply	Structure of latissimus dorsi muscle	C0224362
+C1179702	L5 Segmental Innervation	has_segmental_composition	Nerve to flexor hallucis brevis	C0836010
+C1305854	C8 innervation	has_segmental_supply	Extensor digiti minimi	C0224270
+C1298908	no	has_seronet_permissible_value	Chronic liver disease	C0341439
+C0205082	Severe (severity modifier)	has_severity	Psychomotor retardation, profound	C1855773
+C0231589	Limitation of joint movement	has_sign_or_symptom	Neuro-musculo-skeletal function	C0237114
+C0005424	Biliary Tract Diseases	has_single_level_category	Biliary Tract Diseases	C0005424
+C0382839	CD94 Antigen	has_sort_version	CD94 Antigen	C0382839
+C1554746	Physicians - Anesthesiology	has_specialty	Anesthesia for procedures on salivary glands, including biopsy	C0370247
+C1610733	Urine - SpecimenType	has_specimen	Urine lipids measurement	C2188724
+C0194075	Core needle biopsy of kidney	has_specimen_procedure	Specimen from kidney obtained by (core) needle biopsy	C1292616
+C0005795	Blood donor	has_specimen_source_identity	Serum specimen from blood donor	C1292515
+C0042345	Varicosity	has_specimen_source_morphology	Hemorrhoid tissue specimen	C2584838
+C0278427	Structure of transplanted lung	has_specimen_source_topography	Specimen from transplanted lung obtained by biopsy	C2585484
+C0227322	Ileal juice	has_specimen_substance	Ileostomy fluid specimen	C0444141
+C0475374	Tumor stage T3	has_stage	TNM Pancreas tumor staging	C0474917
+C0205208	Solid	has_state_of_matter	Pillule Dosage Form	C1273649
+C0007412	Catecholamines	has_structural_class	epinephrine hydrochloride	C0001636
+C0015965	Fetus	has_subject	Multisection limited for multiple gestation pregnancy:Find:Pt:Pelvis+^Fetus:Doc:US	C4265898
+C1305660	Carer (occupation)	has_subject_of_information	Caregiver lives nearby	C0557485
+C0027361	Persons	has_subject_relationship_context	Conjunctival swab taken for virology	C2585114
+C0003241	Antibodies	has_suffix	G Ab:PrThr:Pt:Ser/Plas:Ord	C0482239
+C0370201	Blood product unit	has_supersystem	G Ab:PrThr:Pt:Ser/Plas^BPU:Ord	C0482237
+C3242288	Name:Act:inboundRelationship:ActRelationship	has_supported_concept_property	ActRelationshipType - CodeSystem	C1553725
+C3244103	ClassifiesClassCode	has_supported_concept_relationship	EntityCode - CodeSystem	C1553752
+C0205357	Smooth	has_surface_characteristic	Saline-filled smooth breast implant	C4708703
+C0205357	Smooth	has_surface_texture	Silicone gel-filled smooth breast implant	C4708704
+C0522521	Transvenous approach	has_surgical_approach	Therapeutic transluminal operations on vein	C0398107
+C0205352	Simple	has_surgical_extent	Simple repair of superficial wounds of face, ears, eyelids, nose, lips and/or mucous membranes; 2.5 cm or less	C0370463
+C3828186	Serum or Plasma	has_system	DBG Ab:PrThr:Pt:Ser/Plas:Ord	C0482215
+C0007603	Plasma membrane	has_target	perifosine	C0754570
+C5547365	Pediatric population	has_target_population	Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human Poliovirus antigens only pediatric vaccine product	C5397523
+C4302701	Wedge pressure technique	has_technique	Venous wedge pressure	C0520855
+C1444634	Temporal context value	has_temporal_context	Conjunctival swab taken for virology	C2585114
+C0360390	Antimycobacterial agent	has_therapeutic_class	clofazimine	C0008996
+C1442770	24 Hours	has_time_aspect	gastric fluid 24 hour volume	C2182657
+C0444504	Statistical mean	has_time_modifier	Intravascular systolic:Pres:8H^mean:Arterial system:Qn	C0488260
+C4071828	WO	has_timing_of	Multisection^WO contrast+10M post contrast IV:Find:Pt:Abdomen>Kidney.bilateral:Doc:XR.tomography	C0881987
+C0593953	Twinrix	has_tradename	hepatitis A vaccine (inactivated) strain HM175	C2355841
+C0006095	Structure of brachiocephalic vein	has_tributary	Superior systemic venous tree	C0836308
+C1519269	Serving	has_units	Estimated intake of fruit servings in 24 hours	C5192882
+C4319774	Tablet (unit of presentation)	has_unit_of_presentation	calcium carbonate 1500 MG Chewable Tablet	C0704154
+C1179426	Esophageal tributary of right inferior thyroid vein	has_venous_drainage	Esophagus	C0014876
+C2366569	Alternative Billing Concepts, 2009	has_version	Alternative Billing Concepts	C1140170
+C4299031	AP L-lateral-decubitus	has_view_type	View AP L-lateral-decubitus:Finding:Point in time:Chest:Narrative:XR	C0881866
+C0013313	Dura Mater	homonym_for	Meninges	C0025285
+C0015282	Exocrine Glands	homonym_of	Simple exocrine gland	C1179008
+C1514303	Precursor T Cell Neoplasm of the Mouse Hematologic System	human_disease_maps_to_eo_disease	Lymphoma	C0024299
+C5236153	Concurrent Disease Type	icdc_value_of	no	C1298908
+C0025294	Meningococcal meningitis	icd_asterisk	Meningitis in bacterial diseases classified elsewhere	C0694469
+C0018077	Gonococcal peritonitis	icd_dagger	Other gonococcal infections	C0348152
+C1318509	Esophagram	imaged_anatomy_has_procedure	Esophagus	C0014876
+C0688242	chlordiazepoxide hydrochloride 25 MG Oral Capsule	inactive_ingredient_of	microcrystalline cellulose	C0669247
+C3152271	Hyperhep B 220 UNT/ML includes Injection & Prefilled Syringe	included_in	1 ML hepatitis B immune globulin 220 UNT/ML Injection [Hyperhep B]	C3888173
+C3887760	10 ML Etomidate 2 MG/ML Injection [Amidate]	includes	Amidate 2 MG/ML includes Injection & Prefilled Syringe	C4057821
+C3687785	Cloacal swab	includes_sub_specimen	Pooled cloacal/pharyngeal swab	C3687723
+C4743867	Grade 2 Neonatal Bradyarrhythmia, AE	inc_parent_of	Neonatal Bradyarrhythmia, Adverse Event	C4743805
+C0394207	Insertion of antisyphon device into ventricular shunt	indirect_device_of	Ventricular shunt device	C0728823
+C0194554	Drainage of Skene's gland cyst	indirect_morphology_of	Cyst	C0010709
+C0197737	Extracapsular extraction of cataract by inferior temporal route	indirect_procedure_site_of	Lens, Crystalline	C0023317
+C0012772	disulfiram	induced_by	Vomiting	C0042963
+C0026827	Muscle hypotonia	induces	vecuronium bromide	C0042435
+C0933335	Arch of thoracic duct	inferior_to	Descending thoracic duct	C4251993
+C2327034	Septal myocardium of left ventricle	inferolateral_to	Myocardium of inferior wall of left ventricle	C2329537
+C0504058	Lateral wall of left ventricle	inferomedial_to	Inferior wall of left ventricle	C0504056
+C2930061	amlodipine 5 MG / hydrochlorothiazide 25 MG / olmesartan medoxomil 40 MG Oral Tablet	ingredients_of	amlodipine / hydrochlorothiazide / olmesartan	C2929700
+C5397502	Acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product	ingredient_characteristic_of	Low dose	C0445550
+C0716936	atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet [Chardonna]	ingredient_of	phenobarbital	C0031412
+C5399685	Vaccine product containing only low dose acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae antigens (medicinal product)	ingredient_qualitative_strength_of	Low dose	C0445550
+C1135918	Myocytes, Smooth Muscle	inherent_3d_shape_of	Spindle	C1166795
+C2317096	Saturation of Peripheral Oxygen	inherent_location_of	Blood arterial	C0229665
+C2711400	Anatomical or acquired body structure	inheres_in	Comparative temperature in limbs	C0424791
+C1853214	RETINITIS PIGMENTOSA 35	inheritance_type_of	Autosomal recessive inheritance	C0441748
+C0507218	Left subscapularis	insertion_of	Lesser tubercle of left humerus	C0816536
+C0472872	Diagnostic endoscopic examination of lower bowel and biopsy of lesion of lower bowel using fibreoptic sigmoidoscope	instrumentation_of	Flexible sigmoidoscope	C0183295
+C0522769	Diagnostic surgical procedure	intent_of	Diagnostic	C0348026
+C0836251	Neurovascular bundle of prostate	internal_to	Structure of capsule of prostate	C0227963
+C0686761	Lack of bone formation	interpretation_of	Lacking	C0332268
+C0391876	Cerebral evoked potential	interprets	Normal cerebral evoked potential	C0522211
+C4517366	Injury of bladder during surgery	inverse_during	Operative Surgical Procedures	C0543467
+C1155812	meiosis I	inverse_ends_during	meiotic telophase I	C1155829
+C1326746	uterine wall breakdown	inverse_happens_during	Menstruation	C0025344
+C0038454	Cerebrovascular accident	inverse_isa	CNS problem	C0740760
+C5396984	Proportion of energy requirement from fat and oil in 24 hours	inverse_relative_to	Fat and oil	C0452829
+C0407280	Closed reduction and internal fixation of proximal femoral fracture with screw/nail device alone	inverse_was_a	Closed reduction of fracture with internal fixation	C0185498
+C0567499	Breast problem	isa	Breast Cyst	C0006144
+C1838101	TCF12/NR4A3 FUSION GENE	is_abnormality_of_gene	t(9;15)(q22;q21)	C1515805
+C3540640	FUS/CREB3L1 Fusion Protein	is_abnormality_of_gene_product	FUS-CREB3L1 Fusion Protein Expression	C1708028
+C3899649	Childhood Oligoastrocytoma	is_abnormal_cell_of_disease	Neoplastic Neuroepithelial Cell	C1514048
+C0085203	Radiosurgery	is_action_guidance_for	Guidance for radiosurgery:Find:Pt:XXX:Doc:CT	C0882207
+C0882195	Multisection limited:Find:Pt:XXX:Doc:CT	is_aggregation_view_of	Limited (extensiveness)	C0439801
+C0522523	Percutaneous	is_approach_guidance_for	Guidance for percutaneous vertebroplasty:Find:Pt:Abdomen>Spine.lumbar:Doc:CT	C1524333
+C1336913	Endometrial Endometrioid Adenocarcinoma with Spindled Epithelial Cells	is_associated_anatomic_site_of	Uterine cavity	C0227844
+C1611475	CCNC protein, human	is_associated_anatomy_of_gene_product	Nucleoplasm	C0682537
+C1333322	Villous adenoma of duodenum	is_associated_disease_of	Intraepithelial Neoplasia	C0878500
+C1531428	EEF1A2 protein, human	is_biochemical_function_of_gene_product	Guanosine Triphosphate Phosphohydrolases	C0018296
+C3813203	Transmembrane Glycoprotein NMB	is_chemical_classification_of_gene_product	Integral Membrane Proteins	C0021699
+C1704863	TNFSF11 wt Allele	is_chromosomal_location_of_gene	13q14	C1520544
+C0280821	Dactinomycin/Doxorubicin/Mercaptopurine/Methotrexate/Prednisone/Vincristine	is_component_of_chemotherapy_regimen	doxorubicin	C0013089
+C0008633	Chromosomes	is_ctdc_value_of	Chromosomes, Human, Pair 10	C0008652
+C1336273	Stage III Testicular Seminoma AJCC v6 and v7	is_cytogenetic_abnormality_of_disease	Hypertriploidy	C1512559
+C5667329	Synaptophysin/Chromogranin Immunohistochemistry Test	is_dipg_dmg_permissible_value_for_variable	Negative Finding	C1513916
+C4071816	3D post processing	is_exam_for	Multisection 3D post processing^WO contrast:Find:Pt:Abdomen+Pelvis:Doc:CT	C4070490
+C1709457	Papillary Thyroid Microcarcinoma	is_finding_of_disease	Carcinomatous Component Present	C1707292
+C1114417	Multisection^WO & W contrast IV:Find:Pt:Neck:Doc:CT	is_given_pharmaceutical_substance_for	Contrast	C1979874
+C1541317	Adult Gliosarcoma	is_grade_of_disease	Grade four rank	C0547054
+C0881858	Multisection:Finding:Point in time:Chest:Narrative:COMPUTERIZED TOMOGRAPHY	is_imaged_location_for	Chest	C0817096
+C0882518	Views for patency of biliary structures+ejection fraction^W sincalide+W radionuclide IV:Find:Pt:Abdomen>Biliary ducts+Gallbladder:Doc:NM	is_imaging_focus_of	Gallbladder	C0016976
+C0268501	BADS Syndrome	is_interpreted_by	Hearing	C0018767
+C0942232	Multisection:Find:Pt:Extremity.right:Doc:CT	is_lateral_anatomic_location_of	Right	C0205090
+C0584884	Subscapularis muscle structure	is_location_of_anatomic_structure	Shoulder	C0037004
+C1516926	Epinephrine Secretion Inhibition	is_location_of_biological_process	Cellular Membrane	C3161472
+C0881865	Views PA upright^W inspiration + W expiration:Find:Pt:Chest:Doc:XR	is_maneuver_type_for	Inspiration function	C0004048
+C0795677	von Willebrand factor, human	is_marked_by_gene_product	Hemangioma	C0018916
+C2745883	ProLindac	is_mechanism_of_action_of_chemical_or_drug	DNA Crosslinking	C1511665
+C0347003	Secondary malignant neoplasm of testis	is_metastatic_anatomic_site_of_disease	Testis	C0039597
+C0881803	View AP upright:Find:Pt:Abdomen:Doc:XR.portable	is_modality_subtype_for	Portable	C4299032
+C0881860	Multisection:Finding:Point in time:Chest:Narrative:MRI	is_modality_type_for	Magnetic Resonance Imaging	C0024485
+C0031469	phenylephrine	is_modification_of	phenylephrine hydrochloride	C0031470
+C1336077	Sporadic Burkitt's lymphoma	is_molecular_abnormality_of_disease	Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement	C1516675
+C3641710	ENSAT Stage II Adrenal Cortex Carcinoma	is_normal_cell_origin_of_disease	Adrenal Cortical Cell	C1706725
+C1333793	tubulovillous adenoma of stomach	is_normal_tissue_origin_of_disease	Glandular Epithelium	C0682578
+C0007099	Carcinoma in Situ	is_not_abnormal_cell_of_disease	Malignant Stromal Cell	C1518246
+C1709467	Parathyroid Gland Lipoadenoma	is_not_cytogenetic_abnormality_of_disease	Loss of Chromosome 9p	C1517994
+C1708788	Lung Typical Carcinoid Tumor	is_not_finding_of_disease	Necrotic changes (finding)	C1334928
+C4745272	Locally Advanced Pancreatic Ductal Adenocarcinoma	is_not_metastatic_anatomic_site_of_disease	Pancreas	C0030274
+C1292771	Chronic Myelogenous Leukemia, BCR-ABL1 Positive	is_not_molecular_abnormality_of_disease	PDGFRB Gene Rearrangement	C2827357
+C2347753	Adult Pure Erythroid Leukemia	is_not_normal_cell_origin_of_disease	Lymphocyte	C0024264
+C1515893	Adult Vaginal Botryoid-Type Embryonal Rhabdomyosarcoma	is_not_normal_tissue_origin_of_disease	Epithelium	C0014609
+C1706987	Borrelia Burgdoferi-Associated Cutaneous Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue	is_not_primary_anatomic_site_of_disease	lymph nodes	C0024204
+C0000833	Abscess	is_object_guidance_for	Guidance for drainage of abscess+placement of drainage catheter:Find:Pt:XXX:Doc:CT	C1116465
+C2826522	MIR376B Pre-miRNA	is_organism_source_of_gene_product	Homo sapiens	C0086418
+C4086098	CDISC SEND Pregnancy Findings Test Code Terminology	is_paired_with_value_set	CDISC SEND Pregnancy Findings Test Name Terminology	C4084929
+C5420121	Site of Radiation Therapy	is_pcdc_all_permissible_value_for_variable	Bone structure of cranium	C0037303
+C2826025	Mixed phenotype acute leukemia	is_pcdc_aml_permissible_value_for_variable	Yes (indicator)	C1705108
+C0206065	Karnofsky Performance Status	is_pcdc_ews_permissible_value_for_variable	Karnofsky Performance Status 60	C3829425
+C5447720	Nodal Site	is_pcdc_gct_permissible_value_for_variable	Cervix Uteri	C0007874
+C1287399	Imaging finding	is_pcdc_hl_permissible_value_for_variable	Equivocal Laboratory Test Result	C5555312
+C5420783	Joint Involvement	is_pcdc_os_permissible_value_for_variable	Unknown	C0439673
+C1524450	Multisection limited^W contrast IV:Find:Pt:Abdomen:Doc:CT	is_pharmaceutical_route_for	Intravenous Route of Drug Administration	C1522726
+C1708435	IL4 wt Allele	is_physical_location_of_gene	5: 132037272-132046267	C1711004
+C4086002	Autologous CD19CAR-CD28-CD3zeta-EGFRt-expressing Tn/mem-enriched T-lymphocytes	is_physiologic_effect_of_chemical_or_drug	T-Cell Activation	C1155065
+C1959633	Spatial guidance for medical procedure	is_presence_guidance_for	Guidance for drainage+placement of drainage catheter:Find:Pt:Pelvis>Anus:Doc:CT	C1524313
+C0942307	Guidance for injection:Find:Pt:Pelvis>Sacroiliac joint.left:Doc:CT	is_presence_of_lateral_location	True	C0205238
+C0347098	Stage 0 Pharynx Carcinoma	is_primary_anatomic_site_of_disease	Throat	C3665375
+C1518018	Low Grade Flat Villous Dysplasia of the Mouse Intestinal Tract	is_property_or_attribute_of_eo_disease	Low Grade	C1282907
+C1709993	SNP_Type	is_qualified_by	SNP_ID	C1709992
+C5197618	SST protein, human	is_related_to_endogenous_product	Recombinant Somatostatin	C1881011
+C0424790	Rigor - Temperature-associated observation	is_seronet_permissible_value_for_variable	Unknown	C0439673
+C2981372	Stage IIIA Esophageal Adenocarcinoma AJCC v7	is_stage_of_disease	Stage level 3	C0441771
+C0205238	True	is_sterile	Woven gauze pad, sterile	C3881397
+C0907306	SIRPB1 protein, human	is_structural_domain_or_motif_of_gene_product	Transmembrane Domain	C1519623
+C2713073	Views for fetal age:Find:Pt:Abdomen+^Fetus:Doc:XR	is_subject_of	Fetus	C0015965
+C1831937	F-18 16 alpha-fluoroestradiol	is_target	Estrogen Receptor Family, human	C5441529
+C0881919	Multisection^W contrast IV:Find:Pt:Head>Facial bones:Doc:CT	is_timing_for	In addition to	C0332287
+C2826982	Relationship Type	is_value_for_gdc_property	Natural sibling	C0337502
+C0881866	View AP L-lateral-decubitus:Finding:Point in time:Chest:Narrative:XR	is_view_type_for	AP L-lateral-decubitus	C4299031
+C1707782	Disease_May_Have_Cytogenetic_Abnormality	kind_is_domain_of	Disease, Disorder or Finding	C1511989
+C3640110	Procedure_Has_Target_Disease	kind_is_range_of	Disease, Disorder or Finding	C1511989
+C0771309	valacyclovir hydrochloride	lab_number_of	BW256U87	C0701514
+C1619811	Low - MessageWaitingPriority	larger_than	Message Waiting Priority - Medium	C1561547
+C2127770	sensation of something floating in right thumb joint	laterality_of	Right	C0205090
+C0925483	Left nasomaxillary suture	lateral_to	Frontal process of left maxilla	C0935309
+C0224526	Structure of sagittal suture of skull	left_lateral_to	Left parietal bone	C0934302
+C0224561	Structure of intermaxillary suture of skull	left_medial_to	Left upper central incisor tooth bony socket	C2951106
+C3669415	Catfish in confinement for human food production	life_circumstance_of	Produces flesh for human food	C3687504
+C2366753	Initial hospital or birthing center care, per day, for evaluation and management of normal newborn infant admitted and discharged on the same date	locale_of	Hospital-based birthing center	C0338001
+C2366751	Initial care, per day, for evaluation and management of normal newborn infant seen in other than hospital or birthing center	locale_of_excluded	Free Standing Birthing Center	C0085904
+C1533685	Injection procedure	location_of	Biliary tract structure	C0005423
+C5220260	Progress note&#x7C;ANYRole&#x7C;ANYSetting	loinc_number_of	Progress note:Find:Pt:{Setting}:Doc:Attending	C0801747
+C0923381	Skin of left nipple	lymphatic_drainage_of	Cutaneous lymphatic tree of left nipple	C2325441
+C0038358	Gastric ulcer	manifestation_of	Bleeding gastric ulcer	C0341164
+C1552903	SmithKline Beecham	manufactured_by	rotavirus vaccine, live, monovalent	C2342811
+C0358297	Anthrax Vaccines	manufactures	Emergent BioSolutions	C4038526
+C0038454	Cerebrovascular accident	mapped_from	Cerebrovascular accident	C0038454
+C0001623	Adrenal gland hypofunction	mapped_to	Addisonian crisis	C0151467
+C0067764	N-acetylneuraminoyllactose	mapping_qualifier_of	analogs & derivatives	C0002776
+C4239792	Left fetal nasal bone	matures_from	Left nasal bone	C0934364
+C0934364	Left nasal bone	matures_into	Left fetal nasal bone	C4239792
+C0280169	Ann Arbor Stage IV Grade 1 Follicular Lymphoma	may_be_abnormal_cell_of_disease	Neoplastic Centroblast	C1514006
+C1332442	BRCA1-Associated Hereditary Breast and Ovarian Cancer Syndrome	may_be_associated_disease_of_disease	Liver carcinoma	C2239176
+C1334158	Immunodeficiency-associated Burkitt's lymphoma	may_be_cytogenetic_abnormality_of_disease	t(2;8)(p11;q24)	C1515758
+C0034131	purified protein derivative of tuberculin	may_be_diagnosed_by	Hypersensitivity	C0020517
+C0796293	Ann Arbor Stage II Adult Non-Contiguous Immunoblastic Lymphoma	may_be_finding_of_disease	Lymphadenopathy	C0497156
+C1709457	Papillary Thyroid Microcarcinoma	may_be_molecular_abnormality_of_disease	KRAS Gene Mutation	C1517649
+C0854143	Angiocentric lymphoma recurrent	may_be_normal_cell_origin_of_disease	Cytotoxic T-Lymphocytes	C0039195
+C5555608	Ovarian Mesonephric-Like Adenocarcinoma	may_be_normal_tissue_origin_of_disease	Mesonephric Remnants	C1881790
+C0282399	ganciclovir sodium	may_be_prevented_by	Cytomegalovirus Infections	C0010823
+C3245488	Acquired Name	may_be_qualified_by	Last Name	C1301584
+C0017066	ganciclovir	may_be_treated_by	Cytomegalovirus Infections	C0010823
+C0011581	Depressive disorder	may_diagnose	dexamethasone	C0011777
+C0016365	fluoxetine	may_inhibit_effect_of	cyproheptadine	C0010620
+C0004623	Bacterial Infections	may_prevent	Fluoroquinolone Antibacterial	C4306797
+C1301584	Last Name	may_qualify	Acquired Name	C3245488
+C0010823	Cytomegalovirus Infections	may_treat	ganciclovir	C0017066
+C0005790	Blood coagulation tests	measured_by	Blood coagulation	C0005778
+C1277977	Serum 5-alpha-dihydrotestosterone measurement	measured_component_of	testosterone	C0039601
+C2711196	Measurement of rifampin in serum specimen using high performance liquid chromatography	measurement_method_of	High pressure liquid chromatography procedure	C0008562
+C0236504	ADB	measures	Whole Blood ADB Test	C0236225
+C0033216	procainamide	mechanism_of_action_of	Unknown Cellular or Molecular Interaction [MoA]	C1373108
+C0929065	Frontal process of right maxilla	medial_to	Right nasomaxillary suture	C0925482
+C1869102	Haemorrhage terms (excl laboratory terms) (SMQ)	member_of	Coital bleeding	C1610622
+C4249175	Left maxillary process	merges_with	Left lateral nasal process	C4242580
+C0017642	glipizide	metabolic_site_of	Hepatic Metabolism	C1373178
+C0005558	Biopsy	method_of	Method of biopsy	C0449327
+C0187029	Closed treatment of ulnar fracture, proximal end (eg, olecranon or coronoid process[es]); without manipulation	method_of_excluded	Manipulation procedure	C0947647
+C0370886	Open treatment of shoulder dislocation, with fracture of greater humeral tuberosity, includes internal fixation, when performed	method_of_possibly_included	Fixation - action	C0185023
+C0184514	Assess or Monitor	modified_by	Maintenance of immobilizer	C0184574
+C1171205	Musculosketal Care	modifies	Assess or Monitor	C0184514
+C1825635	JAZF1 gene	molecular_abnormality_involves_gene	JAZF1-SUZ12 Fusion Protein Expression	C1517616
+C0477447	Otitis media in viral diseases classified elsewhere	moved_from	Extension Namespace 1000000	C1299996
+C1563030	Extension Namespace 1000009	moved_to	NOLVALUBE	C0309625
+C0851368	Anaemias nonhaemolytic and marrow depression	mth_british_form_of	Anaemias nonhaemolytic and marrow depression	C0851368
+C2609429	Depression (excl suicide and self injury) (SMQ)	mth_expanded_form_of	Depression (excl suicide and self injury) (SMQ)	C2609429
+C0154292	Other hemolytic anemias due to enzyme deficiency	mth_has_british_form	Other hemolytic anemias due to enzyme deficiency	C0154292
+C2609429	Depression (excl suicide and self injury) (SMQ)	mth_has_expanded_form	Depression (excl suicide and self injury) (SMQ)	C2609429
+C0312777	C>5b678< inhibitor	mth_has_plain_text_form	C>5b678< inhibitor	C0312777
+C0313168	Blood group antibody M^c^	mth_has_xml_form	Blood group antibody M^c^	C0313168
+C0311503	aryl-alcohol dehydrogenase (NADP+)	mth_plain_text_form_of	aryl-alcohol dehydrogenase (NADP+)	C0311503
+C3841475	Beta plus thalassemia	mth_xml_form_of	Beta plus thalassemia	C3841475
+C0154135	Neoplasm of unspecified nature of other specified sites	multiply_mapped_from	[X]Neoplasms of uncertain and unknown behaviour	C0694450
+C0694450	[X]Neoplasms of uncertain and unknown behaviour	multiply_mapped_to	Neoplasm of unspecified nature of other specified sites	C0154135
+C2612387	negative regulation of mitochondrial RNA catabolic process	negatively_regulated_by	mitochondrial RNA catabolic process	C2612383
+C1155688	initial mitotic spindle pole body separation	negatively_regulates	negative regulation of mitotic spindle pole body separation	C2611993
+C0280100	Solid Neoplasm	neoplasm_has_special_category	liposarcoma	C0023827
+C0816055	Right spinalis thoracis	nerve_supply_of	T4 branch to right spinalis thoracis	C2338904
+C0549186	Obstructed	noun_form_of	Obstruction	C0028778
+C1280473	Operative procedure on arteriovenous fistula	occurs_after	Pseudoaneurysm of surgical arteriovenous fistula	C2584605
+C2584654	Posttraumatic seizure	occurs_before	Craniocerebral Trauma	C0018674
+C0231335	Childhood	occurs_in	Juvenile osteochondrosis of acetabulum	C0343276
+C0011057	Hearing Loss, Sudden	onset_of	Sudden onset (contextual qualifier) (qualifier value)	C1272517
+C1427070	TWIST2 gene	organism_has_gene	Homo sapiens	C0086418
+C0836347	Long head of right biceps femoris	origin_of	Area of origin of long head of right biceps femoris	C4249604
+C0154135	Neoplasm of unspecified nature of other specified sites	other_mapped_from	Neoplasm of uncertain or unknown behavior of mediastinum	C0496915
+C0496915	Neoplasm of uncertain or unknown behavior of mediastinum	other_mapped_to	Neoplasm of unspecified nature of other specified sites	C0154135
+C3242478	Unclassified Realm	owning_affiliate_of	Universal - VocabularyDomainQualifier	C1552870
+C3242467	financial information	owning_section_of	Administrative Management Publishing Section	C3245510
+C3242438	accounting & billing	owning_subsection_of	financial information	C3242467
+C0519823	Basic metabolic panel (Calcium, total) This panel must include the following: Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Potassium (84132) Sodium (84295) Urea nitrogen (BUN) (84520)	panel_element_of	Blood urea nitrogen measurement	C0005845
+C0373491	ACTH stimulation panel; for adrenal insufficiency This panel must include the following: Cortisol (82533 x 2)	panel_element_of_possibly_included	Adrenocorticotropic hormone measurement	C0201835
+C5217821	Magnesium.ionized&#x7C;Pt&#x7C;Ser/Plas	parent_group_of	MassMolConc<SAME:Comp&#x7C;Tm&#x7C;Sys&#x7C;Meth><Prop:MCncORSCnc>	C5214691
+C0165921	entacapone	parent_of	Catechol-O-Methyltransferase Inhibitor [EPC]	C3536821
+C2220009	Excessive weight gain during pregnancy	partially_equivalent_to	Oedema or excessive weight gain in pregnancy NOS	C0156732
+C0192440	Billroth I Procedure	partially_excised_anatomy_has_procedure	Stomach	C0038351
+C0193864	Modified radical neck dissection (procedure)	partially_excised_anatomy_may_have_procedure	Structure of sternocleidomastoid muscle	C0224153
+C0222302	Skin structure of great toe	part_anatomy_structure_of	Skin of part of great toe	C1283724
+C0005423	Biliary tract structure	part_of	Gallbladder	C0016976
+C1328319	Ankle brachial pressure index (observable entity)	part_referred_to_by	Structure of brachial artery	C0006087
+C0162832	APC gene	pathogenesis_of_disease_involves_gene	Gardner Syndrome	C0017097
+C0268759	SLE glomerulonephritis syndrome, WHO class VI	pathological_process_of	Autoimmune reaction	C0443146
+C0371137	Treatment of intertrochanteric, peritrochanteric, or subtrochanteric femoral fracture; with intramedullary implant, with or without interlocking screws and/or cerclage	pathology_of	Fracture	C0016658
+C0370403	Excision, benign lesion including margins, except skin tag (unless listed elsewhere), scalp, neck, hands, feet, genitalia; excised diameter over 4.0 cm	pathology_of_excluded	Skin tag	C0037293
+C0812478	Open treatment and/or reduction of odontoid fracture(s) and or dislocation(s) (including os odontoideum), anterior approach, including placement of internal fixation; with grafting	pathology_of_possibly_included	Dislocations	C0012691
+C4084852	ITGB6 wt Allele	pathway_has_gene_element	Arrhythmogenic Right Ventricular Cardiomyopathy Pathway	C2984267
+C0189342	Tracheostomy, planned (separate procedure); younger than two years	patient_type_of	Child	C0008059
+C0372424	Meatotomy, cutting of meatus (separate procedure); except infant	patient_type_of_excluded	Infant	C0021270
+C2939347	Patient (or caregiver) queried about Parkinson's disease medication related motor complications (Prkns)	patient_type_of_possibly_included	Patients	C0030705
+C5239600	Minimal Residual Disease Value	pcdc_data_type_of	Numbers	C0237753
+C0009443	Common Cold	permuted_term_of	Common Cold	C0009443
+C4725548	Solvent for Solution for Infusion Dosage Form	pharmaceutical_administration_method_of	Infusion route	C1827465
+C4725563	Injectable Suspension for Emulsion Dosage Form	pharmaceutical_basic_dose_form_of	Suspension Dosage Form Category	C4724031
+C4725547	Solution for Use in Drinking Water/Milk Dosage Form	pharmaceutical_intended_site_of	Oral	C0442027
+C4725550	Solvent for [Product Name] Dosage Form	pharmaceutical_release_characteristics_of	Conventional Release Mechanism of Action	C4724243
+C4725553	Spot-on Solution Dosage Form	pharmaceutical_state_of_matter_of	Liquid substance	C0302908
+C1272898	SOLVENT FOR PARENTERAL USE	pharmaceutical_transformation_of	Mix (transformation)	C4553942
+C0700466	ranitidine hydrochloride	pharmacokinetics_of	Renal Elimination	C1373187
+C1863435	ASCL1, 15-BP DEL, NT111	phenotype_of	Congenital central hypoventilation	C1275808
+C0016351	fluorometholone	physiologic_effect_of	Decreased Prostaglandin Activity	C1371841
+C3669477	Turkey for breeding	physiologic_state_of	Finding related to maturity of sexuality	C0233891
+C2146077	travel/residence in Nigeria	place_traveled_from	Nigeria	C0028075
+C0454698	Central African country	place_traveled_to	travel/residence in Central Africa	C2146041
+C4707888	Therapeutic role	plays_role	Supplementary preparations for parenteral nutrition	C0357170
+C0231357	At risk for impaired skin integrity	population_at_risk_for	Extremes of age	C4063083
+C2612388	positive regulation of mitochondrial RNA catabolic process	positively_regulated_by	mitochondrial RNA catabolic process	C2612383
+C1155688	initial mitotic spindle pole body separation	positively_regulates	positive regulation of mitotic spindle pole body separation	C2611992
+C1932626	Cinnyricinclus leucogaster (organism)	possibly_equivalent_to	Cinnyricinclus leucogaster (organism)	C1932626
+C1280056	Drainage of cerebral subarachnoid space by incision or trephination	possibly_replaced_by	drainage of intracranial space, subarachnoid or subdural by incision or trephination	C0195851
+C0195851	drainage of intracranial space, subarachnoid or subdural by incision or trephination	possibly_replaces	Drainage of cerebral epidural space by incision or trephination	C0195845
+C0224529	Structure of occipitomastoid suture of skull	posterior_to	Structure of lateral part of occipital bone	C0222720
+C0504050	Anterior wall of right ventricle	posteroinferior_to	Lateral wall of right ventricle	C0504051
+C0504050	Anterior wall of right ventricle	posterolateral_to	Septal wall of right ventricle	C0503857
+C2334803	Zone 7 of anterior interventricular branch of left coronary artery	posteromedial_to	Zone 9 of anterior interventricular branch of left coronary artery	C2322923
+C2325652	Conducting system of interventricular septum	posterosuperior_to	Conducting system of left atrium	C0507614
+C1949285	24 HR quetiapine 400 MG Extended Release Oral Tablet	precise_active_ingredient_of	quetiapine fumarate	C0724680
+C1127728	glucosamine sulfate 500 MG	precise_ingredient_of	glucosamine sulfate	C0017720
+C0580944	Lying blood pressure	precondition_of	Recumbent body position	C0444334
+C0705969	celecoxib 100 MG Oral Capsule	presentation_strength_denominator_unit_of	Capsule (unit of presentation)	C4319574
+C0687812	allopurinol 100 MG Oral Tablet	presentation_strength_denominator_value_of	One	C0205447
+C0687813	allopurinol 300 MG Oral Tablet	presentation_strength_numerator_unit_of	milligram	C0439210
+C0975330	cefadroxil 500 MG Oral Capsule	presentation_strength_numerator_value_of	500	C3816747
+C2239440	ALKAL1 gene	prev_name_of	ALKAL1 gene	C2239440
+C2239440	ALKAL1 gene	prev_symbol_of	ALKAL1 gene	C2239440
+C0029551	Other conditions of brain	primary_mapped_from	Other specified disorders of brain	C0477418
+C0477418	Other specified disorders of brain	primary_mapped_to	Other conditions of brain	C0029551
+C0224429	Structure of piriformis muscle	primary_segmental_supply_of	S1 innervation	C1179704
+C0355390	metoclopramide 1 MG/ML Oral Solution	print_name_of	metoclopramide 1 MG/ML Oral Solution	C0355390
+C0190043	Open chest cardiac massage	priority_of	Bale out	C0175673
+C0564995	Lung adhesions freed	procedure_context_of	Done (qualifier value)	C1272695
+C0204414	Partial overdenture	procedure_device_of	Dental Prosthesis	C0162686
+C0185634	Open treatment of nasoethmoid fracture; without external fixation	procedure_device_of_excluded	External Fixation Devices	C0079321
+C0370925	Open treatment of humeral supracondylar or transcondylar fracture, includes internal fixation, when performed; without intercondylar extension	procedure_device_of_possibly_included	Internal Fixators	C0079635
+C0022745	Knee joint	procedure_has_completely_excised_anatomy	Knee Replacement Arthroplasty	C0086511
+C0033572	Prostate	procedure_has_excised_anatomy	Radical cystoprostatectomy	C0194412
+C0014876	Esophagus	procedure_has_imaged_anatomy	Esophagram	C1318509
+C0041967	Urethra	procedure_has_partially_excised_anatomy	Complete cystectomy	C0194401
+C0012240	Gastrointestinal system	procedure_has_target_anatomy	Transplantation of liver	C0023911
+C0222601	Left breast	procedure_may_have_completely_excised_anatomy	Contralateral Prophylactic Mastectomy	C1705768
+C0001625	Adrenal Glands	procedure_may_have_excised_anatomy	Radical nephrectomy	C0401181
+C0036628	Seminal Vesicles	procedure_may_have_partially_excised_anatomy	Nerve-Sparing Prostatectomy	C1514120
+C0192797	Ileostomy transplantation to new site	procedure_morphology_of	Ileostomy - stoma	C0740114
+C2057948	therapeutic ultrasound of palmar aspect of knuckle	procedure_site_of	Metacarpophalangeal joint structure	C0025525
+C0370959	Excision or curettage of bone cyst or benign tumor of radius or ulna (excluding head or neck of radius and olecranon process)	procedure_site_of_excluded	Structure of olecranon	C0223710
+C0370459	Simple repair of superficial wounds of scalp, neck, axillae, external genitalia, trunk and/or extremities (including hands and feet); 7.6 cm to 12.5 cm	procedure_site_of_possibly_included	Skin structure of scalp and/or neck	C1302802
+C0012611	Disaccharides	process_acts_on	Disaccharide intake	C0556136
+C1707234	CYP3A4*17 Allele	process_altered_by_allele	Xenobiotic Metabolism	C1154744
+C5230788	Estimated quantity of intake of protein and/or protein derivative in 24 hours	process_duration_of	24 Hours	C1442770
+C5548423	Structure of lymphatic vessel and/or small blood vessel	process_extends_to	Presence of direct invasion by primary malignant neoplasm to lymphatic vessel and/or small blood vessel	C1269967
+C1622499	Myeloid Cell Differentiation	process_includes_biological_process	Tissue Growth	C1621966
+C1516332	Negative Regulation of Cell Cycle	process_initiates_biological_process	Intercellular Communication Process	C1154413
+C1333366	EXTL1 gene	process_involves_gene	Heparan Sulfate Biosynthesis	C1512406
+C0425486	Rate of spontaneous respiration	process_output_of	Entire spontaneous ventilation cycle process	C4302287
+C5397389	Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type B capsular polysaccharide conjugated antigens only pediatric vaccine	product_characteristic_of	Childhood	C0231335
+C1601966	candesartan Oral Tablet	product_monograph_title_of	Candesartan Cilexetil Tablets	C4720167
+C0002708	Amygdaloid structure	projects_from	Ventral segment of uncinate fasciculus	C4242272
+C0032639	Pontine structure	projects_to	frontopontine fibers	C1184618
+C0523651	gamma-Glutamyltransferase/aspartate amino transferase ratio measurement	property_of	Ratio	C0456603
+C0231832	Respiratory rate	property_type_of	Number rate	C1264674
+C0227958	Structure of base of prostate	proximal_to	Neck of urinary bladder	C0227716
+C1709992	SNP_ID	qualifier_applies_to	SNP_Type	C1709993
+C1694579	Diltiazem Hydrochloride 120 MG Extended Release Oral Capsule [Diltzac]	quantified_form_of	24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Diltzac]	C2684174
+C0585186	Cutaneous hypersensitivity	realization_of	Hypersensitivity process	C3532482
+C2337762	Wall of left atrioventricular junction	receives_attachment_from	Structure of anulus fibrosus of mitral orifice	C0225947
+C0734003	Wall of ileum	receives_drainage_from	Juxta-intestinal lymph node group of ileum	C4254804
+C1744544	Structure of medial globus pallidus	receives_input_from	Intralaminar Nuclear Group	C0228349
+C4242272	Ventral segment of uncinate fasciculus	receives_projection	Orbital cortex	C3495411
+C2586173	Education of parent to support play	recipient_category_of	Family	C0015576
+C0190080	Mitral valvotomy	referred_to_by	Commissurotomy of mitral valve	C3472655
+C2584774	Congenital hypofibrinogenemia	refers_to	Hereditary factor I deficiency disease	C0019250
+C2365246	Modane Reformulated Sep 2008	reformulated_to	Modane	C0026334
+C0720375	Fe-Tinic 150	reformulation_of	Fe-Tinic 150 Reformulated Oct 2008	C2365428
+C0149925	Small cell carcinoma of lung	regimen_has_accepted_use_for_disease	CAV Regimen (Cytoxan-Adriamycin-Vincristine)	C1096817
+C2332453	Bone of right fourth metatarsal bone	regional_part_of	Trabecular bone of right fourth metatarsal bone	C0827628
+C2612386	regulation of mitochondrial RNA catabolic process	regulated_by	mitochondrial RNA catabolic process	C2612383
+C1155688	initial mitotic spindle pole body separation	regulates	regulation of mitotic spindle pole body separation	C2611991
+C4242704	Embryonic secondary palate	related_developmental_entity_of	Right palatal shelf	C4242702
+C4060583	Deficient community health	related_factor_of	Inadequate social support for program	C4063034
+C1179655	Distal tendon of triceps brachii	related_object	Triceps brachii muscle structure	C0559502
+C0922642	Deep part of right masseter	related_part	Structure of right masseter muscle	C0922635
+C1456623	Alzheimer's Caregivers	related_to	Caregiver	C0085537
+C0812273	SMARCB1 gene	related_to_genetic_biomarker	Loss of INI 1 Protein Expression	C4054594
+C0452829	Fat and oil	relative_to	Proportion of energy requirement from fat and oil in 24 hours	C5396984
+C0006087	Structure of brachial artery	relative_to_part_of	Ankle brachial pressure index (observable entity)	C1328319
+C1324623	first spliceosomal transesterification activity	replaced_by	first U2-type spliceosomal transesterification activity	C1324625
+C1324625	first U2-type spliceosomal transesterification activity	replaces	first spliceosomal transesterification activity	C1324623
+C0079278	Endoscopy, Gastrointestinal	result_of	Complication	C0009566
+C0473670	Primary closed reduction spinal fracture and skull traction stabilization	revision_status_of	Primary operation	C0439631
+C0224556	Structure of internasal suture of skull	right_lateral_to	Right nasal bone	C0925968
+C0224526	Structure of sagittal suture of skull	right_medial_to	Right parietal bone	C0925353
+C4060584	Risk for frail elderly syndrome	risk_factor_of	Activity intolerance	C0231367
+C1511989	Disease, Disorder or Finding	role_has_domain	Disease_Has_Metastatic_Anatomic_Site	C1711317
+C1708207	Gene_In_Chromosomal_Location	role_has_parent	Allele_In_Chromosomal_Location	C1706772
+C0333717	Abnormal cell	role_has_range	Disease_Has_Abnormal_Cell	C1707771
+C1709686	Procedure_Has_Imaged_Anatomy	role_is_parent_of	Procedure_Has_Target_Anatomy	C1709688
+C0003290	Tricyclic Antidepressive Agents	role_played_by	Antidepressant therapeutic role	C4751289
+C0522792	Administration of intravenous fluids	route_of_administration_of	Intravenous Route of Drug Administration	C1522726
+C1504189	Transcranial Doppler study of the intracranial arteries; emboli detection without intravenous microbubble injection	route_of_administration_of_excluded	Intravenous Route of Drug Administration	C1522726
+C1964039	Vitrectomy, mechanical, pars plana approach; with removal of internal limiting membrane of retina (eg, for repair of macular hole, diabetic macular edema), includes, if performed, intraocular tamponade (ie, air, gas or silicone oil)	route_of_administration_of_possibly_included	Intraocular Route of Drug Administration	C1522223
+C0686729	Generalized chronic body pains	same_as	constant generalized pain	C2107745
+C0489401	S' wave duration.lead AVR:Time:Pt:Heart:Qn:EKG	scale_of	Quantitative (qualifier value)	C0392762
+C2584627	Qualitative measurement of myoglobin in urine	scale_type_of	Qualitative	C0205556
+C0224270	Extensor digiti minimi	secondary_segmental_supply_of	C8 innervation	C1305854
+C0318798	Paramyxovirus, NOS	see	Parainfluenza virus	C0030393
+C0009207	Cockayne Syndrome	see_from	Deafness	C0011053
+C0836010	Nerve to flexor hallucis brevis	segmental_composition_of	S1 innervation	C1179704
+C0224098	Structure of splenius capitis muscle	segmental_supply_of	C8 innervation	C1305854
+C0228365	Structure of terminal stria nuclei of preoptic region	sends_output_to	Structure of ventromedial hypothalamic nucleus	C0042518
+C1855773	Psychomotor retardation, profound	severity_of	Severe (severity modifier)	C0205082
+C0005775	Blood Circulation	sign_or_symptom_of	Pulse deficit	C0237313
+C1373178	Hepatic Metabolism	site_of_metabolism	azathioprine	C0004482
+C1561547	Message Waiting Priority - Medium	smaller_than	Low - MessageWaitingPriority	C1619811
+C0382839	CD94 Antigen	sort_version_of	CD94 Antigen	C0382839
+C0187052	Reduction of closed ulnar styloid fracture	specialty_of	Physicians - Family Practice	C1554769
+C0023827	liposarcoma	special_category_includes_neoplasm	Solid Neoplasm	C0280100
+C2188724	Urine lipids measurement	specimen_of	Urine - SpecimenType	C1610733
+C0373992	Culture, bacterial; any other source except urine, blood or stool, aerobic, with isolation and presumptive identification of isolates	specimen_of_excluded	Blood specimen	C0178913
+C1292536	Specimen from breast obtained by complete excision, less than total mastectomy, with axillary contents	specimen_procedure_of	Excision of breast tissue	C0191849
+C0444319	Mother's milk specimen	specimen_source_identity_of	Mother (person)	C0026591
+C1292573	Specimen from esophagus obtained by excisional biopsy of lesion	specimen_source_morphology_of	Morphologically abnormal structure (morphologic abnormality)	C0332447
+C1268461	Bone marrow cytological material	specimen_source_topography_of	Bone Marrow	C0005953
+C1268461	Bone marrow cytological material	specimen_substance_of	Bone marrow fluid	C1531614
+C1535939	Pneumocystis jiroveci pneumonia	ssc	Fever	C0015967
+C0474917	TNM Pancreas tumor staging	stage_of	Tumor stage T2	C0475373
+C1705899	Spirit dose form	state_of_matter_of	Liquid (state of matter)	C4521998
+C2702402	tomato allergenic extract	structural_class_of	Dietary Proteins	C0012177
+C0557140	Lives as companion	subject_of_information_of	Family	C0015576
+C0564995	Lung adhesions freed	subject_relationship_context_of	Subject of record	C1444713
+C2827949	Predicted Volume of Distribution of Absorbed Fraction	subset_includes_concept	CDISC SDTM Pharmacokinetic Parameter Short Name Terminology	C2827984
+C0203619	Radionuclide therapy for glandular suppression	substance_used_by	Radioisotopes	C0034595
+C0371291	Repair, tendon, flexor, foot; primary or secondary, without free graft, each tendon	substance_used_by_excluded	Free graft	C0450139
+C0370449	Subcutaneous injection of filling material (eg, collagen); 1 cc or less	substance_used_by_possibly_included	collagen	C0009325
+C3687723	Pooled cloacal/pharyngeal swab	sub_specimen_included_by	Cloacal swab	C3687785
+C0797682	Human papilloma virus 16+18 Ag:PrThr:Pt:Urethra:Ord	suffix_of	Antigens	C0003320
+C4245875	Area of insertion of superficial part of masseter in ramus proper	superior_to	Area of insertion in ramus proper of deep part of masseter	C4245874
+C2335337	Myocardium of apical inferior zone of right ventricle	superolateral_to	Myocardium of apical lateral zone of right ventricle	C2336648
+C2330263	Myocardium of basal septal zone of right ventricle	superomedial_to	Myocardium of basal anterior zone of right ventricle	C2337650
+C0551890	Body weight.25th:Prctl:Pt:^Population distribution:Qn:Estimated.pop birth wgt gestational age corr.ref	supersystem_of	Population Distribution	C0032666
+C3242329	Trigger Event ID	supported_concept_property_in	internalId	C3244072
+C3242329	Trigger Event ID	supported_concept_relationship_in	Generalizes	C4520708
+C4708705	Saline-filled textured breast implant	surface_characteristic_of	With texture	C0449582
+C4708704	Silicone gel-filled smooth breast implant	surface_texture_of	Smooth	C0205357
+C0197737	Extracapsular extraction of cataract by inferior temporal route	surgical_approach_of	Inferior temporal route	C1288263
+C0371376	Excision dermoid cyst, nose; complex, under bone or cartilage	surgical_extent_of	Complex	C0439855
+C1306538	Total laryngectomy without radical neck dissection	surgical_extent_of_excluded	Radical (qualifier value)	C0439807
+C0188169	Open treatment of patellar dislocation, with or without partial or total patellectomy	surgical_extent_of_possibly_included	Total	C0439810
+C0922818	Endocardium of outflow part of right ventricle	surrounded_by	Cavity of conus arteriosis	C0503994
+C0227613	Right kidney	surrounds	Right renal fascia	C0736782
+C0488437	ST slope.lead II:ElpotRat:Pt:Heart:Qn:EKG	system_of	Heart	C0018787
+C1706939	Bilateral Prophylactic Oophorectomy	target_anatomy_has_procedure	Genitourinary system	C0042066
+C5396775	Clostridium tetani and Corynebacterium diphtheriae toxoids only adult vaccine product	target_population_of	Adult population	C5547366
+C1299457	Pulmonary vein mean wedge pressure	technique_of	Wedge pressure technique	C4302701
+C0155579	Rheumatic disease of pulmonary valve	temporally_followed_by	Communicable Diseases	C0009450
+C0012634	Disease	temporally_follows	Sequelae of respiratory and unspecified tuberculosis	C0348301
+C4546042	Perioperative hemorrhage	temporally_related_to	Operative Surgical Procedures	C0543467
+C0564995	Lung adhesions freed	temporal_context_of	Current or specified	C1444636
+C0035525	ribavirin	therapeutic_class_of	Antiviral Agents	C0003451
+C2123612	random urine creatinine measurement	time_aspect_of	Single point in time	C1292424
+C0488857	Heart rate:NRat:8H^min:XXX:Qn	time_modifier_of	Minimum	C1524031
+C1436532	endothelial PAS domain protein 1, human	tissue_is_expression_site_of_gene_product	Endothelial Cells	C0225336
+C0003420	antipyrine	tradename_of	Neotic	C2356095
+C4246193	Late blastocyst	transforms_from	Gastrula	C0017199
+C1519217	Secondary palate	transforms_into	Fetal secondary palate	C4245733
+C0700124	Dilated	treated_by	Dilated lesion	C0940885
+C0940885	Dilated lesion	treats	Dilated	C0700124
+C0042459	Superior vena cava structure	tributary_of	Common inferior thyroid vein	C0501101
+C0036220	Kaposi Sarcoma	uniquely_mapped_from	Kaposi Sarcoma	C0036220
+C0036220	Kaposi Sarcoma	uniquely_mapped_to	Kaposi Sarcoma	C0036220
+C5192880	Estimated intake of dairy foods servings in 24 hours	units_of	Serving	C1519269
+C1363114	24 HR indapamide 1.5 MG Extended Release Oral Tablet	unit_of_presentation_of	Tablet (unit of presentation)	C4319774
+C0015957	Fetishism, Psychiatric	use	Fetishism, Psychiatric	C0015957
+C0700124	Dilated	used_by	Balloon Dilatation	C0004704
+C0015957	Fetishism, Psychiatric	used_for	Fetishism, Psychiatric	C0015957
+C0023089	Lasers	uses	Thermal techniques	C0454527
+C0183044	Rhinoscope	uses_access_device	Endoscopy of nasal sinus with resection of concha bullosa	C2585193
+C0522640	Gigli's wire saw	uses_device	Osteotomy of mandible by Gigli saw	C0185531
+C0021431	Infrared Rays	uses_energy	Infrared radiation therapy	C0204032
+C0181075	Bone graft - material	uses_excluded_substance	Reconstruction midface, LeFort I; single piece, segment movement in any direction (eg, for Long Face Syndrome), without bone graft	C0370696
+C0009325	collagen	uses_possibly_included_substance	Subcutaneous injection of filling material (eg, collagen); 1 cc or less	C0370449
+C0028833	octreotide	uses_substance	Single photon emission computed tomography using radiolabeled octreotide	C2314921
+C3639122	CDISC Questionnaire EQ-5D-3L Test Name Terminology	value_set_is_paired_with	CDISC Questionnaire EQ-5D-3L Test Code Terminology	C3639123
+C0021852	Intestines, Small	venous_drainage_of	Ileal vein	C1301431
+C1140170	Alternative Billing Concepts	version_of	Alternative Billing Concepts, 2009	C2366569
+C0418208	Accident caused by central electric current	was_a	Accident caused by central electric current	C0418208
+C0160543	Open wound of larynx and trachea with complication	wound_has_communication_with	Open injury	C0559870
