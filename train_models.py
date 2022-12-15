@@ -77,5 +77,6 @@ for key in dataset_keys:
     trainer.train()
      
     # Save
+    print(f'Finished training {key} model, saving...')
     trainer.save_model(output_dir[key])
-    print (f'Finished training {key} model')
+    print('Model saved.')
