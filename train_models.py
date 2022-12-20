@@ -36,7 +36,7 @@ tokenizers = {}
 bio_datasets['umls'] = load_dataset("text", data_files="results_nl.txt")['train']
 bio_datasets['pmc']  = load_dataset("text", data_files=[
     "/home/data/dataset/pmc/oa_bulk_bert_512/" + fname
-    for fname in ["000.txt", "001.txt", "002.txt"])['train']
+    for fname in ["000.txt", "001.txt", "002.txt"]])['train']
 bio_datasets['both'] = combine.concatenate_datasets(umls_dataset, pmc_dataset)
 
 # We want trained models to be comparable so we use the
