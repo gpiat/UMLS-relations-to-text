@@ -34,7 +34,9 @@ tokenizers = {}
 
 # initializing datasets
 bio_datasets['umls'] = load_dataset("text", data_files="results_nl.txt")['train']
-bio_datasets['pmc']  = None
+bio_datasets['pmc']  = load_dataset("text", data_files=[
+    "/home/data/dataset/pmc/oa_bulk_bert_512/" + fname
+    for fname in ["000.txt", "001.txt", "002.txt"])['train']
 bio_datasets['both'] = combine.concatenate_datasets(umls_dataset, pmc_dataset)
 
 # We want trained models to be comparable so we use the
@@ -47,8 +49,8 @@ def batchify(dataset):
         yield dataset[i : i + batch_size]["text"]
 
 special_tokens = ["[UNK]", "[PAD]", "[CLS]", "[SEP]", "[MASK]"]
-vocab_trainer = trainers.WordPieceTrainer(vocab_size=25000, 
-                                    special_tokens=special_tokens)
+vocab_trainer = trainers.WordPieceTrainer(vocab_size=25000,
+                                          special_tokens=special_tokens)
 
 
 for key in dataset_keys:
@@ -75,7 +77,7 @@ for key in dataset_keys:
     print(f'Start training {key} model')
     # Start training
     trainer.train()
-     
+
     # Save
     print(f'Finished training {key} model, saving...')
     trainer.save_model(output_dir[key])
