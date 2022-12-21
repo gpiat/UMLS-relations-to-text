@@ -33,16 +33,17 @@ models = {}
 tokenizers = {}
 
 # initializing datasets
-bio_datasets['umls'] = load_dataset("text", data_files="results_nl.txt")['train']
+bio_datasets['umls'] = load_dataset("text", data_files="results_nl.txt")['train'].shuffle(seed=42)
 bio_datasets['pmc']  = load_dataset("text", data_files=[
     "/home/data/dataset/pmc/oa_bulk_bert_512/" + fname
-    for fname in ["000.txt", "001.txt", "002.txt"]])['train']
+    for fname in ["000.txt", "001.txt", "002.txt"]])['train'].shuffle(seed=43)
 bio_datasets['both'] = combine.concatenate_datasets(bio_datasets['umls'], bio_datasets['pmc'])
 
 # We want trained models to be comparable so we use the
 # number of training samples of the smallest corpus.
 # TODO: IMPROVE THIS TO TAKE INTO ACCOUNT SENTENCE LENGTH
 min_size = min([ds.num_rows for ds in bio_datasets.values()])
+#TODO: limit dataset length
 
 def batchify(dataset):
     for i in range(0, len(dataset), batch_size):
@@ -61,8 +62,6 @@ for key in dataset_keys:
     # retraining tokenizers
     tokenizers[key].train_from_iterator(
         batchify(bio_datasets[key]), trainer=vocab_trainer)
-
-    #TODO: Shuffle datasets and limit length
 
     data_collator = DataCollatorForLanguageModeling(
         tokenizer=tokenizers[key], mlm=True, mlm_probability=0.15
