@@ -1,5 +1,6 @@
 from datasets import combine
 from datasets import load_dataset
+from tokenizers import trainers
 from transformers import BertForMaskedLM
 from transformers import BertTokenizer
 from transformers import DataCollatorForLanguageModeling
