@@ -1,8 +1,9 @@
 from datasets import combine
 from datasets import load_dataset
-from tokenizers import trainers
-from transformers import AutoTokenizer
+#2| from tokenizers import trainers
+#1| from transformers import AutoTokenizer
 from transformers import BertForMaskedLM
+# TODO: delete if AutoTokenizer works
 # from transformers import BertTokenizer
 from transformers import DataCollatorForLanguageModeling
 from transformers import Trainer
@@ -51,26 +52,28 @@ def batchify(dataset):
     for i in range(0, len(dataset), batch_size):
         yield dataset[i : i + batch_size]["text"]
 
-special_tokens = ["[UNK]", "[PAD]", "[CLS]", "[SEP]", "[MASK]"]
-vocab_trainer = trainers.WordPieceTrainer(vocab_size=25000,
-                                          special_tokens=special_tokens)
+#2| special_tokens = ["[UNK]", "[PAD]", "[CLS]", "[SEP]", "[MASK]"]
+#2| vocab_trainer = trainers.WordPieceTrainer(vocab_size=25000,
+#2|                                           special_tokens=special_tokens)
 
-# initializing tokenizers with pretrained BERT tokenizers
+#1| initializing tokenizers with pretrained BERT tokenizers
 bertTokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 
 for key in dataset_keys:
     # initializing models with pretrained BERT
     models[key] = BertForMaskedLM.from_pretrained("bert-base-uncased")
 
-    # retraining tokenizers
-    tokenizers[key] = bertTokenizer.train_new_from_iterator(
-        batchify(bio_datasets[key]), trainer=vocab_trainer)
+    #1| TODO?
+    #1| retraining tokenizers
+    #1| tokenizers[key] = bertTokenizer.train_new_from_iterator(
+    #1|     batchify(bio_datasets[key]), vocab_size=30522)
 
-    # TODO: delete
-    # This tokenizer doesn't have train_from_iterator() method
-    # tokenizers[key].train_from_iterator(
-    #     batchify(bio_datasets[key]), trainer=vocab_trainer)
+    #2| TODO?
+    #2| Train tokenizer from scratch
+    #2| tokenizers[key] = Tokenizer.train_from_iterator(
+    #2|     batchify(bio_datasets[key]), trainer=vocab_trainer)
 
+    tokenizers[key] = bertTokenizer
     data_collator = DataCollatorForLanguageModeling(
         tokenizer=tokenizers[key], mlm=True, mlm_probability=0.15
     )
