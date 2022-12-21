@@ -62,6 +62,8 @@ for key in dataset_keys:
     tokenizers[key].train_from_iterator(
         batchify(bio_datasets[key]), trainer=vocab_trainer)
 
+    #TODO: Shuffle datasets and limit length
+
     data_collator = DataCollatorForLanguageModeling(
         tokenizer=tokenizers[key], mlm=True, mlm_probability=0.15
     )
@@ -71,7 +73,7 @@ for key in dataset_keys:
         model=models[key],
         args=training_args,
         data_collator=data_collator,
-        train_dataset=datasets[key],
+        train_dataset=bio_datasets[key],
     )
 
     print(f'Start training {key} model')
