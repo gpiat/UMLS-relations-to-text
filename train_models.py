@@ -88,9 +88,9 @@ for key in dataset_keys:
 
     print(f'Start training {key} model')
     # Start training
-    trainer.train()
+    model_trainer.train()
 
     # Save
     print(f'Finished training {key} model, saving...')
-    trainer.save_model(output_dirs[key])
+    model_trainer.save_model(output_dirs[key])
     print('Model saved.')
