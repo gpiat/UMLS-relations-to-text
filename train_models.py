@@ -78,7 +78,7 @@ for key in dataset_keys:
         tokenizer=tokenizers[key], mlm=True, mlm_probability=0.15
     )
 
-    training_args.output_dir = output_dir[key]
+    training_args.output_dir = output_dirs[key]
     model_trainer = Trainer(
         model=models[key],
         args=training_args,
@@ -92,5 +92,5 @@ for key in dataset_keys:
 
     # Save
     print(f'Finished training {key} model, saving...')
-    trainer.save_model(output_dir[key])
+    trainer.save_model(output_dirs[key])
     print('Model saved.')
