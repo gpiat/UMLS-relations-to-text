@@ -37,7 +37,7 @@ bio_datasets['umls'] = load_dataset("text", data_files="results_nl.txt")['train'
 bio_datasets['pmc']  = load_dataset("text", data_files=[
     "/home/data/dataset/pmc/oa_bulk_bert_512/" + fname
     for fname in ["000.txt", "001.txt", "002.txt"]])['train'].shuffle(seed=43)
-bio_datasets['both'] = combine.concatenate_datasets(bio_datasets['umls'], bio_datasets['pmc'])
+bio_datasets['both'] = combine.concatenate_datasets([bio_datasets['umls'], bio_datasets['pmc']])
 
 # We want trained models to be comparable so we use the
 # number of training samples of the smallest corpus.
