@@ -1,7 +1,7 @@
 from datasets import combine
 from datasets import load_dataset
 #2| from tokenizers import trainers
-#1| from transformers import AutoTokenizer
+from transformers import AutoTokenizer
 from transformers import BertForMaskedLM
 # TODO: delete if AutoTokenizer works
 # from transformers import BertTokenizer
