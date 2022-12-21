@@ -1,8 +1,9 @@
 from datasets import combine
 from datasets import load_dataset
 from tokenizers import trainers
+from transformers import AutoTokenizer
 from transformers import BertForMaskedLM
-from transformers import BertTokenizer
+# from transformers import BertTokenizer
 from transformers import DataCollatorForLanguageModeling
 from transformers import Trainer
 from transformers import TrainingArguments
@@ -54,15 +55,21 @@ special_tokens = ["[UNK]", "[PAD]", "[CLS]", "[SEP]", "[MASK]"]
 vocab_trainer = trainers.WordPieceTrainer(vocab_size=25000,
                                           special_tokens=special_tokens)
 
+# initializing tokenizers with pretrained BERT tokenizers
+bertTokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 
 for key in dataset_keys:
     # initializing models with pretrained BERT
     models[key] = BertForMaskedLM.from_pretrained("bert-base-uncased")
-    # initializing tokenizers with pretrained BERT tookenizers
-    tokenizers[key] = BertTokenizer.from_pretrained("bert-base-uncased")
+
     # retraining tokenizers
-    tokenizers[key].train_from_iterator(
+    tokenizers[key] = bertTokenizer.train_new_from_iterator(
         batchify(bio_datasets[key]), trainer=vocab_trainer)
+
+    # TODO: delete
+    # This tokenizer doesn't have train_from_iterator() method
+    # tokenizers[key].train_from_iterator(
+    #     batchify(bio_datasets[key]), trainer=vocab_trainer)
 
     data_collator = DataCollatorForLanguageModeling(
         tokenizer=tokenizers[key], mlm=True, mlm_probability=0.15
