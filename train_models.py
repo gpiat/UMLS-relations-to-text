@@ -25,6 +25,10 @@ training_args = TrainingArguments(
     save_steps=10_000,
     save_total_limit=2,
     prediction_loss_only=True,
+    # evaluation_strategy="epoch",
+    # learning_rate=2e-5,
+    # weight_decay=0.01,
+    push_to_hub=False
 )
 
 # We will retrain a tokenizer and a bert
@@ -47,6 +51,30 @@ bio_datasets['both'] = combine.concatenate_datasets([bio_datasets['umls'], bio_d
 # TODO: IMPROVE THIS TO TAKE INTO ACCOUNT SENTENCE LENGTH
 min_size = min([ds.num_rows for ds in bio_datasets.values()])
 #TODO: limit dataset length
+
+def tokenize_function(examples):
+    """ Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
+    """
+    return tokenizer(examples["text"])
+
+def group_texts(examples):
+    """ Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
+    """
+    block_size = 128
+    # Concatenate all texts.
+    concatenated_examples = {k: sum(examples[k], []) for k in examples.keys()}
+    total_length = len(concatenated_examples[list(examples.keys())[0]])
+    # We drop the small remainder, we could add padding if the model supported it instead of this drop, you can
+        # customize this part to your needs.
+    total_length = (total_length // block_size) * block_size
+    # Split by chunks of max_len.
+    result = {
+        k: [t[i : i + block_size] for i in range(0, total_length, block_size)]
+        for k, t in concatenated_examples.items()
+    }
+    result["labels"] = result["input_ids"].copy()
+    return result
+
 
 def batchify(dataset):
     for i in range(0, len(dataset), batch_size):
@@ -74,6 +102,20 @@ for key in dataset_keys:
     #2|     batchify(bio_datasets[key]), trainer=vocab_trainer)
 
     tokenizers[key] = bertTokenizer
+
+    # Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
+    tokenized_dataset = datasets.map(tokenize_function, 
+                                     batched=True, 
+                                     num_proc=4, 
+                                     remove_columns=["text"])
+    lm_dataset = tokenized_datasets.map(
+        group_texts,
+        batched=True,
+        batch_size=1000,
+        num_proc=4
+    )
+    # /steal
+
     data_collator = DataCollatorForLanguageModeling(
         tokenizer=tokenizers[key], mlm=True, mlm_probability=0.15
     )
@@ -83,7 +125,9 @@ for key in dataset_keys:
         model=models[key],
         args=training_args,
         data_collator=data_collator,
-        train_dataset=bio_datasets[key],
+        # train_dataset=bio_datasets[key],
+        train_dataset=lm_dataset["train"],
+        # eval_dataset=lm_dataset["validation"],
     )
 
     print(f'Start training {key} model')
