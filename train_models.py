@@ -104,11 +104,11 @@ for key in dataset_keys:
     tokenizers[key] = bertTokenizer
 
     # Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
-    tokenized_dataset = datasets.map(tokenize_function, 
-                                     batched=True, 
-                                     num_proc=4, 
-                                     remove_columns=["text"])
-    lm_dataset = tokenized_datasets.map(
+    tokenized_dataset = bio_datasets[key].map(tokenize_function,
+                                              batched=True,
+                                              num_proc=4,
+                                              remove_columns=["text"])
+    lm_dataset = tokenized_dataset.map(
         group_texts,
         batched=True,
         batch_size=1000,
