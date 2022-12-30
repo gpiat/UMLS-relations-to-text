@@ -52,10 +52,6 @@ bio_datasets['both'] = combine.concatenate_datasets([bio_datasets['umls'], bio_d
 min_size = min([ds.num_rows for ds in bio_datasets.values()])
 #TODO: limit dataset length
 
-def tokenize_function(examples):
-    """ Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
-    """
-    return tokenizer(examples["text"])
 
 def group_texts(examples):
     """ Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
@@ -104,10 +100,12 @@ for key in dataset_keys:
     tokenizers[key] = bertTokenizer
 
     # Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
-    tokenized_dataset = bio_datasets[key].map(tokenize_function,
-                                              batched=True,
-                                              num_proc=4,
-                                              remove_columns=["text"])
+    # except I replaced the tokenization function with a lambda
+    tokenized_dataset = bio_datasets[key].map(
+        lambda examples: tokenizers[key](examples["text"]), 
+        batched=True, 
+        num_proc=4, 
+        remove_columns=["text"])
     lm_dataset = tokenized_dataset.map(
         group_texts,
         batched=True,
