@@ -124,7 +124,7 @@ for key in dataset_keys:
         args=training_args,
         data_collator=data_collator,
         # train_dataset=bio_datasets[key],
-        train_dataset=lm_dataset["train"],
+        train_dataset=lm_dataset,#["train"],
         # eval_dataset=lm_dataset["validation"],
     )
 
