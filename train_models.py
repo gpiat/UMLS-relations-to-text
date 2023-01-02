@@ -99,9 +99,11 @@ def handle_args():
         description="Arg handler for training BERT on UMLS-derived text")
     # p.add_argument('-o', '--option', nargs="*/+/?/N", type=type,
     #                default=None, help="Help text")
-    p.add_argument('-d', '--dataset', nargs=1, type=str,
+    p.add_argument('-d', '--dataset', nargs='?',
+                   type=str, required=True,
                    help="Dataset name: 'umls', 'pmc' or 'both'")
-    p.add_argument('-o', '--output_dir', nargs=1, type=str,
+    p.add_argument('-o', '--output_dir', nargs='?',
+                   type=str, required=True,
                    help="Output directory for saved model")
         # output_dirs = {
         #     'umls': "UMLS_model/",
