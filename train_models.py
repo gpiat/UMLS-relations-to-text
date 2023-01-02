@@ -157,7 +157,9 @@ if __name__ == '__main__':
         "/home/data/dataset/pmc/oa_bulk_bert_512/" + fname
         for fname in ["000.txt", "001.txt", "002.txt"]
         ])['train'].shuffle(seed=43)
-    bio_datasets['both'] = combine.concatenate_datasets([bio_datasets['umls'], bio_datasets['pmc']])
+    bio_datasets['both'] = combine.concatenate_datasets(
+        [bio_datasets['umls'], bio_datasets['pmc']]
+        ).shuffle(seed=44)
     
     # We want trained models to be comparable so we use the
     # number of training samples of the smallest corpus.
