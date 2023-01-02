@@ -73,7 +73,7 @@ def main(args, dataset, training_args):
     # /steal
 
     data_collator = DataCollatorForLanguageModeling(
-        tokenizer=tokenizer, mlm=True, mlm_probability=0.15
+        tokenizer=tokenizer, mlm=True, mlm_probability=args.mlm_prob
     )
 
     model_trainer = Trainer(
@@ -120,6 +120,8 @@ def handle_args():
                    default=2e-5, help="Learning rate")
     p.add_argument('--wd', nargs="?", type=float,
                    default=0.01, help="weight decay")
+    p.add_argument('--mlm_prob', nargs='?', type=float,
+                   default=0.15, help="Token masking probability in MLM")
 
     args = p.parse_args()
     return args
