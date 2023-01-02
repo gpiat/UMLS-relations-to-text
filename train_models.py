@@ -36,7 +36,7 @@ def batchify(dataset):
         yield dataset[i : i + batch_size]["text"]
 
 
-def main(args, dataset):
+def main(args, dataset, training_args):
     #2| special_tokens = ["[UNK]", "[PAD]", "[CLS]", "[SEP]", "[MASK]"]
     #2| vocab_trainer = trainers.WordPieceTrainer(vocab_size=25000,
     #2|                                           special_tokens=special_tokens)
@@ -59,7 +59,7 @@ def main(args, dataset):
 
     # Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
     # except I replaced the tokenization function with a lambda
-    tokenized_dataset = bio_datasets[key].map(
+    tokenized_dataset = dataset.map(
         lambda examples: tokenizer(examples["text"]), 
         batched=True,
         num_proc=args.threads, 
@@ -76,7 +76,6 @@ def main(args, dataset):
         tokenizer=tokenizer, mlm=True, mlm_probability=0.15
     )
 
-    training_args.output_dir = output_dirs[key]
     model_trainer = Trainer(
         model=model,
         args=training_args,
@@ -165,4 +164,4 @@ if __name__ == '__main__':
 
     dataset = bio_datasets[args.dataset][:min_size]
 
-    main(args, dataset)
+    main(args, dataset, training_args)
