@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH -e train_bert_models.err
-#SBATCH -o train_bert_models.out
+#SBATCH -e sep_train_bert_models.err
+#SBATCH -o sep_train_bert_models.out
 # Choisir nb noeuds
 #SBATCH -N 1
 ## nombre tasks
