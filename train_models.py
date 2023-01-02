@@ -12,10 +12,6 @@ from transformers import Trainer
 from transformers import TrainingArguments
 
 
-models = {}
-tokenizers = {}
-
-
 def group_texts(examples):
     """ Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
     """
@@ -40,7 +36,7 @@ def batchify(dataset):
         yield dataset[i : i + batch_size]["text"]
 
 
-def main(args):
+def main(args, dataset):
     #2| special_tokens = ["[UNK]", "[PAD]", "[CLS]", "[SEP]", "[MASK]"]
     #2| vocab_trainer = trainers.WordPieceTrainer(vocab_size=25000,
     #2|                                           special_tokens=special_tokens)
@@ -82,7 +78,7 @@ def main(args):
 
     training_args.output_dir = output_dirs[key]
     model_trainer = Trainer(
-        model=models[key],
+        model=model,
         args=training_args,
         data_collator=data_collator,
         # train_dataset=bio_datasets[key],
@@ -104,8 +100,8 @@ def handle_args():
         description="Arg handler for training BERT on UMLS-derived text")
     # p.add_argument('-o', '--option', nargs="*/+/?/N", type=type,
     #                default=None, help="Help text")
-    p.add_argument('-b', '--batch_size', nargs="?", type=int,
-                   default=512, help="Batch size for model training")
+    p.add_argument('-d', '--dataset', nargs=1, type=str,
+                   help="Dataset name: 'umls', 'pmc' or 'both'")
     p.add_argument('-o', '--output_dir', nargs=1, type=str,
                    help="Output directory for saved model")
         # output_dirs = {
@@ -113,25 +109,18 @@ def handle_args():
         #     'pmc':  "PMC_model/",
         #     'both': "Hybrid_model/"
         # }
+    p.add_argument('-t', '--threads', nargs='?', type=int,
+                   default=8, help="number of threads for "
+                   "dataset parsing parallelization.")
+
+    p.add_argument('-b', '--batch_size', nargs="?", type=int,
+                   default=512, help="Batch size for model training")
     p.add_argument('-e', '--epochs', nargs="?", type=int,
                    default=1, help="Number of training epochs")
     p.add_argument('--lr', nargs="?", type=float,
                    default=2e-5, help="Learning rate")
     p.add_argument('--wd', nargs="?", type=float,
                    default=0.01, help="weight decay")
-    p.add_argument('-d', '--dataset', nargs=1, type=str,
-                   help="Dataset name: 'umls', 'pmc' or 'both'")
-    p.add_argument('-t', '--threads', nargs='?', type=int,
-                   default=8, help="number of threads for "
-                   "dataset parsing parallelization.")
-
-
-    # We want trained models to be comparable so we use the
-    # number of training samples of the smallest corpus.
-    # TODO: IMPROVE THIS TO TAKE INTO ACCOUNT SENTENCE LENGTH
-    min_size = min([ds.num_rows for ds in bio_datasets.values()])
-    #TODO: limit dataset length
-
 
     args = p.parse_args()
     return args
@@ -156,17 +145,24 @@ if __name__ == '__main__':
 
     # initializing datasets
     bio_datasets = {}
-    if args.dataset != 'pmc':
-        bio_datasets['umls'] = load_dataset(
-            "text",
-            data_files="results_nl.txt")['train'].shuffle(seed=42)
-    if args.dataset != 'umls':
-        bio_datasets['pmc']  = load_dataset("text", data_files=[
-            "/home/data/dataset/pmc/oa_bulk_bert_512/" + fname
-            for fname in ["000.txt", "001.txt", "002.txt"]
-            ])['train'].shuffle(seed=43)
+    # we could avoid loading unused datasets but we need all of them to
+    # find out which is smallest and limit the size so they're all equal.
+    # if args.dataset != 'pmc':
+    bio_datasets['umls'] = load_dataset(
+        "text",
+        data_files="results_nl.txt")['train'].shuffle(seed=42)
+    # if args.dataset != 'umls':
+    bio_datasets['pmc']  = load_dataset("text", data_files=[
+        "/home/data/dataset/pmc/oa_bulk_bert_512/" + fname
+        for fname in ["000.txt", "001.txt", "002.txt"]
+        ])['train'].shuffle(seed=43)
     bio_datasets['both'] = combine.concatenate_datasets([bio_datasets['umls'], bio_datasets['pmc']])
     
-    dataset = bio_datasets[args.dataset]
+    # We want trained models to be comparable so we use the
+    # number of training samples of the smallest corpus.
+    # TODO: IMPROVE THIS TO TAKE INTO ACCOUNT SENTENCE LENGTH
+    min_size = min([ds.num_rows for ds in bio_datasets.values()])
 
-    main(args)
+    dataset = bio_datasets[args.dataset][:min_size]
+
+    main(args, dataset)
