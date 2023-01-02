@@ -168,6 +168,8 @@ if __name__ == '__main__':
     # TODO: IMPROVE THIS TO TAKE INTO ACCOUNT SENTENCE LENGTH
     min_size = min([ds.num_rows for ds in bio_datasets.values()])
 
-    dataset = bio_datasets[args.dataset][:min_size]
+    # must select() and not slice with [:min_size] else result is
+    # dict, not Dataset
+    dataset = bio_datasets[args.dataset].select(range(min_size))
 
     main(args, dataset, training_args)
