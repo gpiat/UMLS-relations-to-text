@@ -20,18 +20,26 @@ Use:
 	inactive_ingredient_of -- CUI2 is an inactive ingredient in CUI1.
 	concept_in_subset -- The concept of "CUI2" is part of the CUI1.
 
-
-Use but check meaning:
 	has_manifestation -- CUI2 may manifest as CUI1
 	ingredient_of -- CUI2 is an ingredient in CUI1
+	mapped_to -- The "CUI1" category includes CUI2
+	classified_as -- CUI2 is an example of CUI1
+	consists_of -- CUI2 consists of CUI1
+
+	is_associated_anatomic_site_of -- The CUI2 is the anatomic site associated with CUI1
+	gene_plays_role_in_process	-- The CUI2 plays a role in the process of CUI1
+	occurs_in -- CUI2 only occurs during CUI1
+
+Use but check meaning:
 
 Maybe:
-	classified_as -- is more specific than?
-	mapped_to -- is a type of
 
 
-Yes but figure out which of the pair is better:
-	consists_of / constitutes
+Would be great but requires more info than just CUI to process:
+	has_prev_name	33209
+	prev_name_of	33209
+	common_name_of	99079
+	has_common_name	99079
 
 
 Don't understand:
@@ -52,11 +60,9 @@ has_indirect_procedure_site	30846
 has_allelic_variant	32607
 allelic_variant_of	32607
 
-has_prev_name	33209
-prev_name_of	33209
 
-has_phenotype	33857
-phenotype_of	33857
+has_phenotype	33857	# one CUI is a gene, not really legible
+phenotype_of	33857	# one CUI is a gene, not really legible
 
 has_mapping_qualifier	35222
 mapping_qualifier_of	35222
@@ -67,17 +73,8 @@ has_doseformgroup	35244
 loinc_number_of	40137
 has_loinc_number	40137
 
-gene_plays_role_in_process	42457
-process_involves_gene	42457
-
-is_associated_anatomic_site_of	42601
-disease_has_associated_anatomic_site	42601
-
 is_finding_of_disease	44305
 disease_has_finding	44305
-
-has_occurrence	49182
-occurs_in	49182
 
 is_abnormal_cell_of_disease	57378
 disease_has_abnormal_cell	57378
@@ -96,10 +93,8 @@ analyzed_by	78102
 alias_of	78779
 has_alias	78779
 
-common_name_of	99079
 has_scale	99079
 scale_of	99079
-has_common_name	99079
 
 has_answer	100135
 answer_to	100135
@@ -107,11 +102,11 @@ answer_to	100135
 has_time_aspect	100172
 time_aspect_of	100172
 
-property_of	101060
-has_property	101060
+property_of	101060		# one concept in pair always unintelligible
+has_property	101060	# one concept in pair always unintelligible
 
-interprets	103824
-is_interpreted_by	103824
+interprets	103824			# UNCLEAR
+is_interpreted_by	103824	# UNCLEAR
 
 direct_procedure_site_of	104108
 has_direct_procedure_site	104108
