@@ -30,7 +30,17 @@ replace = {
     'same_as': 'The concept of "{}" and "{}" are equivalent.\n',
     'active_ingredient_of': '{} is an active ingredient in {}.\n',
     'inactive_ingredient_of': '{} is an inactive ingredient in {}.\n',
-    'concept_in_subset': 'The concept of "{}" is part of the {}.\n'
+    'concept_in_subset': 'The concept of "{}" is part of the {}.\n',
+    "has_manifestation": '{} may manifest as {}.\n',
+    "ingredient_of": '{} is an ingredient in {}.\n',
+    "classifies": 'The "{}" category includes "{}".\n',
+    "mapped_to": '{} is an example of {}.\n',
+    "consists_of": '{} consists of {}.\n',
+    "is_associated_anatomic_site_of":
+        'The {} is the anatomic site associated with {}.\n',
+    "gene_plays_role_in_process":
+        'The {} plays a role in the process of {}.\n',
+    "occurs_in": '{} only occurs during {}.\n'
 }
 
 
