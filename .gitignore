@@ -1,6 +1,7 @@
 # ignoring extracted relations to not share data that should be private and because of large file sizes
 extracted_relations.tsv
 results_nl.txt
+results_nl.txt.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
