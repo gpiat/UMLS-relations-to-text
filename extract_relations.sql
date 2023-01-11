@@ -62,12 +62,6 @@ ALTER TABLE MRCONSOABBR ADD PRIMARY KEY (CUI);
 CREATE TABLE MRRELabbr AS
     SELECT DISTINCT CUI1, RELA, CUI2
     FROM MRREL
-    -- Selecting only the subset of relations that interests us. Selecting all relations is not tractable.
-    -- WHERE RELA IN ('may_treat', 'may_prevent', 'cause_of', 'causative_agent_of',
-    --              'contraindicated_with_disease', 'isa', 'associated_with',
-    --              'clinically_associated_with', 'co-occurs_with')
-    -- Query OK, 2 613 817 rows affected (34.09 sec)
-    -- this results in a corpus of 2 627 133 relations, 35 090 597 words.
     WHERE RELA IN ("may_treat", "may_prevent", "cause_of",
                    "causative_agent_of", "contraindicated_with_disease",
                    "isa", "associated_with", "clinically_associated_with",
@@ -75,13 +69,13 @@ CREATE TABLE MRRELabbr AS
                    "measures", "part_of", "member_of",
                    "finding_method_of", "possibly_equivalent_to",
                    "same_as", "active_ingredient_of",
-                   "inactive_ingredient_of", "concept_in_subset")
+                   "inactive_ingredient_of", "concept_in_subset",
+                   "has_manifestation", "ingredient_of",
+                   "classifies", "mapped_to", "consists_of",
+                   "is_associated_anatomic_site_of", "occurs_in",
+                   "gene_plays_role_in_process")
     AND CUI1 != CUI2;
--- Query OK, 4 450 324 rows affected (1 min 2.36 sec)
--- this results in a corpus of 2 627 133 relations, 83 732 422 words.
-
-
-
+-- Query OK, 5 928 995 rows affected (1 min 14.27 sec)
 
 CREATE TABLE RELPREF AS
     SELECT DISTINCT CUI1, t2.STR AS STR1, RELA, t3.STR AS STR2, CUI2 
@@ -90,12 +84,9 @@ CREATE TABLE RELPREF AS
         on t1.CUI1=t2.cui
     inner join MRCONSOABBR t3
         on t1.CUI2=t3.cui;
--- Query OK, 4 450 324 rows affected (54.30 sec)
+-- Query OK, 5 928 995 rows affected (1 min 11.68 sec)
 
-
-
-
-
+SELECT * FROM RELPREF WHERE RAND() < 0.0001;
 
 
 
