@@ -60,9 +60,9 @@ def main(args, dataset, training_args):
     # Code stolen from https://github.com/huggingface/notebooks/blob/main/examples/language_modeling.ipynb
     # except I replaced the tokenization function with a lambda
     tokenized_dataset = dataset.map(
-        lambda examples: tokenizer(examples["text"]), 
+        lambda examples: tokenizer(examples["text"]),
         batched=True,
-        num_proc=args.threads, 
+        num_proc=args.threads,
         remove_columns=["text"])
     lm_dataset = tokenized_dataset.map(
         group_texts,
@@ -162,14 +162,19 @@ if __name__ == '__main__':
     bio_datasets['both'] = combine.concatenate_datasets(
         [bio_datasets['umls'], bio_datasets['pmc']]
         ).shuffle(seed=44)
-    
+    # since the 2 datasets are about the same size (600 vs 550 MB)
+    # but have very different sentence lengths, we just shuffle and
+    # keep the first half.
+    bio_datasets['both'] = bio_datasets['both'].select(
+        range(bio_datasets['both'].num_rows // 2))
+
     # We want trained models to be comparable so we use the
     # number of training samples of the smallest corpus.
     # TODO: IMPROVE THIS TO TAKE INTO ACCOUNT SENTENCE LENGTH
-    min_size = min([ds.num_rows for ds in bio_datasets.values()])
+    # min_size = min([ds.num_rows for ds in bio_datasets.values()])
 
     # must select() and not slice with [:min_size] else result is
     # dict, not Dataset
-    dataset = bio_datasets[args.dataset].select(range(min_size))
+    dataset = bio_datasets[args.dataset] #.select(range(min_size))
 
     main(args, dataset, training_args)
