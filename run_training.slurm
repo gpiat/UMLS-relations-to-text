@@ -37,21 +37,21 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
 srun --ntasks=1 --gres=gpu:1 python train_models.py \
 -d umls \
 -o $TIMESTAMP'_UMLS_model/' \
--t 8
+-t 8 \
 -e 2 &
 
 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
 srun --ntasks=1 --gres=gpu:1 python train_models.py \
 -d pmc \
 -o $TIMESTAMP'_PMC_model/' \
--t 8
+-t 8 \
 -e 2 &
 
 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
 srun --ntasks=1 --gres=gpu:1 python train_models.py \
 -d both \
 -o $TIMESTAMP'_Hybrid_model/' \
--t 8
+-t 8 \
 -e 2 &
 
 wait
