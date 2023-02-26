@@ -116,6 +116,8 @@ def handle_args():
 
     p.add_argument('-b', '--batch_size', nargs="?", type=int,
                    default=512, help="Batch size for model training")
+    p.add_argument('-g', '--gradacc', nargs="?", type=int,
+                   default=1, help="Number of batches over which to accumulate gradient")
     p.add_argument('-e', '--epochs', nargs="?", type=int,
                    default=1, help="Number of training epochs")
     p.add_argument('--lr', nargs="?", type=float,
@@ -143,7 +145,8 @@ if __name__ == '__main__':
         # evaluation_strategy="epoch",
         learning_rate=args.lr,
         weight_decay=args.wd,
-        push_to_hub=False
+        push_to_hub=False,
+        gradient_accumulation_steps=args.gradacc
     )
 
     # initializing datasets
@@ -167,6 +170,8 @@ if __name__ == '__main__':
     # keep the first half.
     bio_datasets['both'] = bio_datasets['both'].select(
         range(bio_datasets['both'].num_rows // 2))
+    bio_datasets['pmc2'] = bio_datasets['pmc'].select(
+        range(bio_datasets['pmc'].num_rows // 2))
 
     # We want trained models to be comparable so we use the
     # number of training samples of the smallest corpus.
