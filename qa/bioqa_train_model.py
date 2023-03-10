@@ -96,13 +96,15 @@ else:
 
 # Create the train-valid-test split
 train_valid = encoded_dataset['train'].train_test_split(test_size=.5)
+
 train_test = train_valid['train'].train_test_split(test_size=.1)
 train_test_valid_dataset = DatasetDict({
     'train':train_test['train'],
     'test':train_test['test'],
     'validation':train_valid['test']
 })
-train_test_valid_dataset = train_test_valid_dataset.remove_columns(('context', 'long_answer', 'pubid', 'question'))
+train_test_valid_dataset = train_test_valid_dataset.remove_columns(('context.contexts', 'context.labels', 'context.meshes', 'context.reasoning_required_pred', 'context.reasoning_free_pred', 'long_answer', 'pubid', 'question'))
+train_test_valid_dataset
 
 # if we are online, this means this run was on the home node of
 # the cluster and was only to download and cache everything
