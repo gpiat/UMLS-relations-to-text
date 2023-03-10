@@ -15,9 +15,10 @@ from sys import argv
 reasoning_required = False
 if (len(argv) > 1 and argv[1] == "reasoning-required"):
     reasoning_required = True
+    print("Running in reasoning-required setting")
 elif (argv[1] == "reasoning-free"):
     reasoning_required = False
-
+    print("Running in reasoning-free setting")
 if len(argv) > 2:
     model_checkpoint = argv[2]
 else:
@@ -74,20 +75,26 @@ def preprocess_with_long_answer(examples):
         padding=True,
     )
 
-doc_stride = 128 
-
-# This represents the reasoning required case
 def preprocess_with_context(examples):
+    question = examples['question']
+    context = examples['context.contexts']
+    
+    # Combine context sentences into a single string
+    context_strs = [' '.join(context_str) for context_str in context]
+    
+    # Tokenize inputs with overlap
     return tokenizer(
-        examples['question'],
-        " ".join(examples['context.contexts']),
-        padding=True,
+        question,
+        context_strs,
+        padding='max_length',
         truncation=True,
+        max_length=512,
+        stride=256,
+        return_tensors='pt'
     )
-expanded_contexts_dataset = dataset.flatten()
 
-encoded_reasoning_required = expanded_contexts_dataset.map(preprocess_with_context)
-encoded_reasoning_free = dataset.map(preprocess_with_long_answer, batched=True)
+encoded_reasoning_required = dataset.flatten().map(preprocess_with_context, batched=True)
+encoded_reasoning_free = dataset.flatten().map(preprocess_with_long_answer, batched=True)
 
 if (reasoning_required):
     encoded_dataset = encoded_reasoning_required
@@ -174,8 +181,8 @@ trainer.train()
 
 # We can check with the `evaluate` method that our `Trainer` did
 # reload the best model properly (if it was not the last one):
-print(trainer.evaluate())
+# print(trainer.evaluate(train_test_valid_dataset["test"]))
+trainer.evaluate()
 
 # Testing and printing results
 print(trainer.predict(test_dataset=train_test_valid_dataset["test"]))
-
