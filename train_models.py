@@ -1,6 +1,9 @@
 import argparse
+from sys import stderr
+from torch import cuda, device
 
 from datasets import combine
+from datasets import disable_progress_bar
 from datasets import load_dataset
 #2| from tokenizers import trainers
 from transformers import AutoTokenizer
@@ -67,7 +70,7 @@ def main(args, dataset, training_args):
     lm_dataset = tokenized_dataset.map(
         group_texts,
         batched=True,
-        batch_size=args.batch_size,
+        batch_size=64, #args.batch_size,
         num_proc=args.threads
     )
     # /steal
@@ -76,12 +79,13 @@ def main(args, dataset, training_args):
         tokenizer=tokenizer, mlm=True, mlm_probability=args.mlm_prob
     )
 
+    model.to(device("cuda"))
     model_trainer = Trainer(
         model=model,
         args=training_args,
         data_collator=data_collator,
         # train_dataset=bio_datasets[key],
-        train_dataset=lm_dataset,#["train"],
+        train_dataset=lm_dataset, #["train"],
         # eval_dataset=lm_dataset["validation"],
     )
 
@@ -101,7 +105,7 @@ def handle_args():
     #                default=None, help="Help text")
     p.add_argument('-d', '--dataset', nargs='?',
                    type=str, required=True,
-                   help="Dataset name: 'umls', 'pmc' or 'both'")
+                   help="Dataset name: 'umls', 'pmc', 'pmc2', 'both' or 'both2'")
     p.add_argument('-o', '--output_dir', nargs='?',
                    type=str, required=True,
                    help="Output directory for saved model")
@@ -131,6 +135,9 @@ def handle_args():
     return args
 
 if __name__ == '__main__':
+    disable_progress_bar()
+    if not cuda.is_available():
+        print("Error: CUDA not available", file=stderr)
     args = handle_args()
     # Setting constants
 
@@ -138,7 +145,7 @@ if __name__ == '__main__':
         output_dir=args.output_dir,
         overwrite_output_dir=True,
         num_train_epochs=args.epochs,
-        per_gpu_train_batch_size=16,
+        per_gpu_train_batch_size=args.batch_size, #512,
         save_steps=10_000,
         save_total_limit=2,
         prediction_loss_only=True,
@@ -156,19 +163,19 @@ if __name__ == '__main__':
     # if args.dataset != 'pmc':
     bio_datasets['umls'] = load_dataset(
         "text",
-        data_files="results_nl.txt")['train'].shuffle(seed=42)
+        data_files="/sscratch/gpiat/results_nl.txt")['train'].shuffle(seed=42)
     # if args.dataset != 'umls':
     bio_datasets['pmc']  = load_dataset("text", data_files=[
         "/home/data/dataset/pmc/oa_bulk_bert_512/" + fname
-        for fname in ["000.txt", "001.txt", "002.txt"]
+        for fname in ["001.txt", "002.txt", "003.txt"]
         ])['train'].shuffle(seed=43)
     bio_datasets['both'] = combine.concatenate_datasets(
         [bio_datasets['umls'], bio_datasets['pmc']]
         ).shuffle(seed=44)
-    # since the 2 datasets are about the same size (600 vs 550 MB)
+    # since the 2 datasets are about the same size (600 vs 590 MB)
     # but have very different sentence lengths, we just shuffle and
     # keep the first half.
-    bio_datasets['both'] = bio_datasets['both'].select(
+    bio_datasets['both2'] = bio_datasets['both'].select(
         range(bio_datasets['both'].num_rows // 2))
     bio_datasets['pmc2'] = bio_datasets['pmc'].select(
         range(bio_datasets['pmc'].num_rows // 2))
