@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH -e long_sep_train_bert_models.err
-#SBATCH -o long_sep_train_bert_models.out
+#SBATCH -e testlong_sep_train_bert_models.err
+#SBATCH -o testlong_sep_train_bert_models.out
 # Choisir nb noeuds
 #SBATCH -N 1
 ## nombre tasks
@@ -10,7 +10,7 @@
 ## le entier rien que pour moi
 ##SBATCH --exclusive
 #SBATCH --mem=36000
-#SBATCH --time=5-10:00:00
+#SBATCH --time=7-00:00:00
 # Choisir partition (commande `sinfo` pour voir les differentes partitions)
 #SBATCH -p gpuv100
 ##,gpup100,gpup6000
@@ -34,25 +34,25 @@ source activate hfds
 TIMESTAMP=`date +"%Y-%m-%d %T" | sed 's/\s/_/g' | sed 's/[:-]//g'`
 
 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
-srun --ntasks=1 --gres=gpu:1 python train_models.py \
+srun --ntasks=1 --gres=gpu:1 python train_models_old.py \
 -d umls \
 -o $TIMESTAMP'_UMLS_model/' \
 -t 8 \
 -e 2 &
 
-HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
-srun --ntasks=1 --gres=gpu:1 python train_models.py \
--d pmc \
--o $TIMESTAMP'_PMC_model/' \
--t 8 \
--e 2 &
+#HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+#srun --ntasks=1 --gres=gpu:1 python train_models.py \
+#-d pmc \
+#-o $TIMESTAMP'_PMC_model/' \
+#-t 8 \
+#-e 2 &
 
-HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
-srun --ntasks=1 --gres=gpu:1 python train_models.py \
--d both \
--o $TIMESTAMP'_Hybrid_model/' \
--t 8 \
--e 2 &
+#HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+#srun --ntasks=1 --gres=gpu:1 python train_models.py \
+#-d both \
+#-o $TIMESTAMP'_Hybrid_model/' \
+#-t 8 \
+#-e 2 &
 
 wait
 
