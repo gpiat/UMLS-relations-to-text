@@ -93,10 +93,10 @@ def preprocess_with_long_answer(examples):
 def preprocess_with_context(examples):
     question = examples['question']
     context = examples['context.contexts']
-    
+
     # Combine context sentences into a single string
     context_strs = [' '.join(context_str) for context_str in context]
-    
+
     # Tokenize inputs with overlap
     return tokenizer(
         question,
