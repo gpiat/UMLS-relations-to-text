@@ -16,18 +16,27 @@ reasoning_required = False
 if (len(argv) > 1 and argv[1] == "reasoning-required"):
     reasoning_required = True
     print("Running in reasoning-required setting")
-elif (argv[1] == "reasoning-free"):
+else:
     reasoning_required = False
     print("Running in reasoning-free setting")
-if len(argv) > 2:
-    model_checkpoint = argv[2]
+
+train_on_artificial_data = False
+if len(argv) > 2 and argv[2] == "with-artificial":
+    train_on_artificial_data = True
+    print("Training with artificial data")
+else:
+    train_on_artificial_data = False
+    print("Training without artificial data")
+
+if len(argv) > 3:
+    model_checkpoint = argv[3]
 else:
     model_checkpoint = "bert-base-uncased"
 
 # Optional Arg 3 to specify whether to connect to the internet. This is used
 # to download and cache models/datasets online and run training offline due
 # to computing cluster constraints.
-if len(argv) > 3 and argv[3] == "online":
+if len(argv) > 4 and argv[4] == "online":
     online = True
 else:
     online = False
@@ -45,6 +54,12 @@ features['final_decision'] = ClassLabel(3, ["yes","no", "maybe"])
 dataset['train'] = dataset['train'].cast(features)
 dataset = dataset.rename_column('final_decision','label')
 
+if (train_on_artificial_data):
+    artififcal_dataset = load_dataset("pubmed_qa", name="pqa_artificial")
+    features = artififcal_dataset['train'].features.copy()
+    features['final_decision'] = ClassLabel(3, ["yes","no", "maybe"])
+    artififcal_dataset['train'] = artififcal_dataset['train'].cast(features)
+    artififcal_dataset = artififcal_dataset.rename_column('final_decision','label')
 
 metric: Metric = load("f1")
 
@@ -96,6 +111,9 @@ def preprocess_with_context(examples):
 encoded_reasoning_required = dataset.flatten().map(preprocess_with_context, batched=True)
 encoded_reasoning_free = dataset.flatten().map(preprocess_with_long_answer, batched=True)
 
+if train_on_artificial_data:
+    artifical_encoded_reasoning_required = artififcal_dataset.flatten().map(preprocess_with_context, batched=True)
+
 if (reasoning_required):
     encoded_dataset = encoded_reasoning_required
 else:
@@ -112,6 +130,9 @@ train_test_valid_dataset = DatasetDict({
 })
 train_test_valid_dataset = train_test_valid_dataset.remove_columns(('context.contexts', 'context.labels', 'context.meshes', 'context.reasoning_required_pred', 'context.reasoning_free_pred', 'long_answer', 'pubid', 'question'))
 train_test_valid_dataset
+
+if train_on_artificial_data:
+    artifial_dataset_split = artifical_encoded_reasoning_required['train'].train_test_split(test_size=.1)
 
 # if we are online, this means this run was on the home node of
 # the cluster and was only to download and cache everything
@@ -164,6 +185,16 @@ def compute_metrics(eval_pred):
     predictions = np.argmax(predictions, axis=1)
     return metric.compute(predictions=predictions, references=labels, average='micro')
 
+if train_on_artificial_data:
+    artificial_trainer = Trainer(
+        model,
+        args,
+        train_dataset=artifial_dataset_split['train'],
+        eval_dataset=artifial_dataset_split['test'],
+        tokenizer=tokenizer,
+        compute_metrics=compute_metrics,
+    )
+    artificial_trainer.train()
 
 # Then we just need to pass all of this along with our datasets to the `Trainer`:
 trainer = Trainer(
