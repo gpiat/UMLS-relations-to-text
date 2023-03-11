@@ -43,8 +43,9 @@ else:
 
 
 ## Loading the dataset
-from datasets import load_dataset, ClassLabel, Metric, DatasetDict
-from evaluate import load
+#from datasets import load_dataset, ClassLabel, Metric, DatasetDict
+#from evaluate import load
+from datasets import load_dataset, load_metric, ClassLabel, DatasetDict
 
 dataset = load_dataset("pubmed_qa", name="pqa_labeled")
 
@@ -61,11 +62,14 @@ if (train_on_artificial_data):
     artififcal_dataset['train'] = artififcal_dataset['train'].cast(features)
     artififcal_dataset = artififcal_dataset.rename_column('final_decision','label')
 
-metric: Metric = load("f1")
+#metric: Metric = load("f1")
+metrics = {k: load_metric(k) for k in ["precision", "recall", "f1"]}
 
 ## Loading the model
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, use_fast=True)
+from const import tokenizer_checkpoint
+
+tokenizer = AutoTokenizer.from_pretrained(tokenizer_checkpoint, use_fast=True)
 num_labels = 3
 model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, num_labels=num_labels)
 # The warning is telling us we are throwing away some weights (the
@@ -108,16 +112,13 @@ def preprocess_with_context(examples):
         return_tensors='pt'
     )
 
-encoded_reasoning_required = dataset.flatten().map(preprocess_with_context, batched=True)
-encoded_reasoning_free = dataset.flatten().map(preprocess_with_long_answer, batched=True)
-
 if train_on_artificial_data:
     artifical_encoded_reasoning_required = artififcal_dataset.flatten().map(preprocess_with_context, batched=True)
 
 if (reasoning_required):
-    encoded_dataset = encoded_reasoning_required
+    encoded_dataset = dataset.flatten().map(preprocess_with_context, batched=True)
 else:
-    encoded_dataset = encoded_reasoning_free
+    encoded_dataset = dataset.flatten().map(preprocess_with_long_answer, batched=True)
 
 # Create the train-valid-test split
 train_valid = encoded_dataset['train'].train_test_split(test_size=.5)
@@ -165,7 +166,7 @@ args = TrainingArguments(
     num_train_epochs=5,
     weight_decay=0.01,
     load_best_model_at_end=False,
-    metric_for_best_model="f1",
+    metric_for_best_model=metric_name,
     push_to_hub=False,
 )
 
@@ -183,7 +184,15 @@ args = TrainingArguments(
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
     predictions = np.argmax(predictions, axis=1)
-    return metric.compute(predictions=predictions, references=labels, average='micro')
+    #return metric.compute(predictions=predictions, references=labels, average='micro')
+    retval = {}
+    for metric in metrics.values():
+        res = metric.compute(predictions=predictions,
+                             references=labels,
+                             average='micro')
+        (k, v), = res.items()
+        retval[k] = v
+    return retval
 
 if train_on_artificial_data:
     artificial_trainer = Trainer(
@@ -216,4 +225,4 @@ trainer.train()
 trainer.evaluate()
 
 # Testing and printing results
-print(trainer.predict(test_dataset=train_test_valid_dataset["test"]))
+print(trainer.predict(test_dataset=train_test_valid_dataset["test"]).metrics)
