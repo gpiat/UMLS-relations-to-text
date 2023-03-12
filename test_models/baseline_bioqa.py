@@ -121,16 +121,16 @@ else:
     encoded_dataset = dataset.flatten().map(preprocess_with_long_answer, batched=True)
 
 # Create the train-valid-test split
-train_valid = encoded_dataset['train'].train_test_split(test_size=.5)
+train_valid = encoded_dataset['train'].train_test_split(test_size=.2)
 
-train_test = train_valid['train'].train_test_split(test_size=.1)
+train_test = train_valid['train'].train_test_split(test_size=.25)
 train_test_valid_dataset = DatasetDict({
     'train':train_test['train'],
     'test':train_test['test'],
     'validation':train_valid['test']
 })
-train_test_valid_dataset = train_test_valid_dataset.remove_columns(('context.contexts', 'context.labels', 'context.meshes', 'context.reasoning_required_pred', 'context.reasoning_free_pred', 'long_answer', 'pubid', 'question'))
-train_test_valid_dataset
+#train_test_valid_dataset = train_test_valid_dataset.remove_columns(('context.contexts', 'context.labels', 'context.meshes', 'context.reasoning_required_pred', 'context.reasoning_free_pred', 'long_answer', 'pubid', 'question'))
+train_test_valid_dataset = train_test_valid_dataset.remove_columns(('long_answer', 'pubid', 'question'))
 
 if train_on_artificial_data:
     artifial_dataset_split = artifical_encoded_reasoning_required['train'].train_test_split(test_size=.1)
