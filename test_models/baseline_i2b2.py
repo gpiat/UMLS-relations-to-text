@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+import argparse
 
 from const import tokenizer_checkpoint
 from sys import argv
