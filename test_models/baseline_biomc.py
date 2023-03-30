@@ -21,7 +21,7 @@ batch_size = 16
 dataset = load_dataset("medmcqa")
 filtered_dataset = dataset.filter(lambda x: x['choice_type'] == 'single')
 features = filtered_dataset['train'].features.copy()
-features['cop'] = ClassLabel(4, ['1','2','3','4'])
+features['cop'] = ClassLabel(4, ['0','1','2','3'])
 filtered_dataset = filtered_dataset.cast(features=features)
 filtered_dataset = filtered_dataset.rename_column('cop', 'label')
 
